@@ -1,0 +1,104 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;    
+}
+.logo{
+    position: absolute;
+    top:0;
+    left: 15%;
+    padding : 10px 10px 10px 10px;
+}
+.logo:hover .caption {
+    opacity: 1;
+}
+.caption {
+    height:40px;
+    color: #e2344d;
+    font-size: 25px;
+    z-index: 10;
+    transition: all 0.5s ease;
+    opacity: 0;
+    position: absolute;
+    top:0px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.menu{
+ display: flex; 
+ justify-content: space-evenly;
+ width: 500px;
+ height:100%;
+ position: absolute;
+ top : 10px;
+ left: 30%;
+
+ padding : 10px 10px 10px 10px;
+}
+
+.menu a{
+    margin-left: 16px;
+    font-weight: bold;
+    color: white;    
+    text-decoration: none;
+}
+
+.right_menu{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:0;
+    right:5%;
+    margin-left: 10px;
+    padding : 10px 10px 10px 10px;
+    color:white;
+} 
+
+.right_menu li{
+    margin-left: 20px;
+}
+.menu a:hover, 
+.right_menu li:hover{
+    color: #e43450;
+    cursor: pointer;
+}
+
+
+i:first-child{
+    position:relative;
+}
+
+
+.dropdown-user,
+.dropdown-menu
+{
+    display: none;
+    margin-top: 20px;
+    text-align: center;
+    padding: 7px;
+}
+.dropdown-user a,
+.dropdown-menu a 
+{
+    display:block;
+    text-decoration: none;
+    padding-top: 10px;
+    color: black;
+}
+
+.right_menu a:hover{
+    background-color:rgb(186, 186, 186);
+}
+.user_icon:hover .dropdown-user,
+.menu_icon:hover .dropdown-menu 
+{
+    display: block;
+}
+
+.right_menu div{
+    position:absolute;
+    top: 20px;
+    left: -10px;
+    width: 150px;
+    padding: 15px;
+}
