@@ -1,3 +1,13 @@
+@keyframes dropdown-show {
+    from {
+        opacity: 0;
+        transform: translateY(5px);
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .header{
     display: flex;
     flex-direction: row;
@@ -68,7 +78,6 @@ i:first-child{
     position:relative;
 }
 
-
 .dropdown-user,
 .dropdown-menu
 {
@@ -93,6 +102,9 @@ i:first-child{
 .menu_icon:hover .dropdown-menu 
 {
     display: block;
+    animation-name: dropdown-show;
+    animation-duration: 500ms;
+    animation-direction: normal;
 }
 
 .right_menu div{
