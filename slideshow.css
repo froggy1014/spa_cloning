@@ -1,0 +1,75 @@
+.slideshow{
+    position: relative;
+      
+}
+.slides{
+  width:400vw;
+  z-index: 2;
+}
+
+.slides img{
+    z-index: 1;
+    width:100vw;
+    height:500px;
+}
+
+
+.fst-slide-text{
+    color:white;
+    position: absolute;
+    top:30%;
+    left: 10%;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+.slide-text-scd{
+    font-size: 2em;
+    font-weight: bold;
+    margin:15px;
+    margin-left: 0;
+     
+}
+.slide-text-fst,
+.slide-text-trd{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.controller {
+    position: absolute;
+    top:84%;
+    left:55%;
+    display: flex;;
+    text-decoration: none;
+}
+.controller i{
+    color:black;
+}
+.controller .pre-next-box,
+.controller .play-pause-box{
+    background-color:#717171;
+    margin: 0 20px 0 20px;
+    padding: 5px 15px 5px 15px;
+    border-radius: 25px;;
+}
+.next{
+    padding-left: 10px;
+}
+
+.controller button{
+    background-color: transparent;
+    border:transparent;
+    outline: transparent;
+    cursor: pointer;
+}
+
+.btn{
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    width:250px;
+    height:50px;
+    border-radius: 25px;
+    background-color: #da5f84;
+    border:0;
+    outline:0;
+    color:white;
+}

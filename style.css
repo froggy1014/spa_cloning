@@ -1,11 +1,8 @@
- body{
-    background-color: gainsboro;
+*{
+    margin: 0;
+    padding: 0;
 }
 
-header{
-    background-color: cadetblue;
-    position: relative;
-}
 
 ul{
     list-style-type: none;
