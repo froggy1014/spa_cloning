@@ -20,9 +20,30 @@
     background-image: url('https://static.spartacodingclub.kr/media/main_carousel/0cnc2hmk3hjy4z9y.png');
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     position: relative;
 }
-
+.sec-slide{
+    background-image: url('https://static.spartacodingclub.kr/media/main_carousel/l8hd6o126tnp197r.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.thr-slide{
+    background-image: url('https://static.spartacodingclub.kr/media/main_carousel/xqtstnv10frgri0x.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.for-slide{
+    background-image: url('https://static.spartacodingclub.kr/media/main_carousel/xzp9hk1o96nbakca.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 .text-box{
     position: absolute;
     top: 170px;
@@ -59,6 +80,7 @@
     color:white;
     font-size: 20px;
     letter-spacing: 2px;
+    cursor: pointer;
 }
 
 .slide_controller{
