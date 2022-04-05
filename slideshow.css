@@ -1,75 +1,117 @@
-.slideshow{
-    position: relative;
-      
-}
-.slides{
-  width:400vw;
-  z-index: 2;
-}
+.myslider {
+    width:100%;
+    margin:auto;
 
-.slides img{
-    z-index: 1;
-    width:100vw;
+}
+.myslider .slide_page {
     height:500px;
+    background-color: #ddd;
 }
 
+.myslider .slick-dots{
+    bottom: 0;
+}
 
-.fst-slide-text{
+.slick-arrow{
+    display: none !important;
+}
+
+.fst-slide{
+    background-image: url('https://static.spartacodingclub.kr/media/main_carousel/0cnc2hmk3hjy4z9y.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.text-box{
+    position: absolute;
+    top: 170px;
+    left: 290px;
+    width: 70%;
+}
+
+.nom-font{
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.fst-text{
     color:white;
-    position: absolute;
-    top:30%;
-    left: 10%;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-size: 25px;
 }
-.slide-text-scd{
-    font-size: 2em;
-    font-weight: bold;
-    margin:15px;
-    margin-left: 0;
-     
-}
-.slide-text-fst,
-.slide-text-trd{
-    font-size: 1.5em;
+.sec-text{
+    margin: 15px 0 15px 0;
+    color:white;
+    font-size: 45px;
     font-weight: bold;
 }
-.controller {
-    position: absolute;
-    top:84%;
-    left:55%;
-    display: flex;;
-    text-decoration: none;
-}
-.controller i{
-    color:black;
-}
-.controller .pre-next-box,
-.controller .play-pause-box{
-    background-color:#717171;
-    margin: 0 20px 0 20px;
-    padding: 5px 15px 5px 15px;
-    border-radius: 25px;;
-}
-.next{
-    padding-left: 10px;
+.thr-text{
+    color:white;
+    font-size: 15px;
+    letter-spacing: 2px;
 }
 
-.controller button{
-    background-color: transparent;
-    border:transparent;
-    outline: transparent;
+.slide_button{
+    margin-top: 30px;
+    padding: 15px 50px;
+    border-radius: 30px;
+    border: none;
+    background:linear-gradient( to right, #eb3d56, #fc6774 );
+    color:white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.slide_controller{
+    margin: 15px 0 15px 0 ;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    text-align: center;
+    align-items: center;
+}
+
+.ctl_area{
+    background-color:rgba(132,132,132,0.8);
+    padding: 10px;
+    color:white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 20px;
+    text-align: center;
+}
+
+.ctl_area_cnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 20px;
+    width:40px;
+    height:10px;
+    border-radius: 25px;
+}
+
+.ctl_area_arrow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+    width:40px;
+    height:10px;
+    border-radius: 25px;
     cursor: pointer;
 }
 
-.btn{
-    position: absolute;
-    bottom: 15%;
-    left: 10%;
-    width:250px;
-    height:50px;
-    border-radius: 25px;
-    background-color: #da5f84;
-    border:0;
-    outline:0;
-    color:white;
+.ctl_area_play{
+
+    width:10px;
+    height:10px;
+    align-items: center;
+    text-align: center;
+    border-radius:50%;
+    cursor: pointer;
 }
