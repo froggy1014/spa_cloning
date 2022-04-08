@@ -19,5 +19,5 @@ ul{
 }
 
 .active{
-    display:block !important;
+    display:flex !important;
 }

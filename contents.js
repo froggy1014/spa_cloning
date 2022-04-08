@@ -4,13 +4,13 @@ $('.content_button_shape').click(function(){
     if ($(this).hasClass('chobo'))
     {
         $('#chobo').addClass('active')
-        $('#chobo').siblings().removeClass('active')
+        $('#chobo').siblings().removeClass('active').addClass('hide')
     }else if($(this).hasClass('data')){
         $('#data').addClass('active')
-        $('#data').siblings().removeClass('active')
+        $('#data').siblings().removeClass('active').addClass('hide')
     }else{
         $('#dev').addClass('active')
-        $('#dev').siblings().removeClass('active')
+        $('#dev').siblings().removeClass('active').addClass('hide')
     }
 
 })
