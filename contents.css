@@ -1,3 +1,9 @@
+  @keyframes blink {
+    from, to { opacity: 1 }
+    50% { opacity: 0 }
+  }
+
+
 .contents_box{
     display:flex;
     flex-direction: column;
@@ -56,18 +62,12 @@
     transition: 0.5s;
 }
 
-
-
-
-
 .content_list_card{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
     text-align: left;
 }
-
-
 
 .content_list_box img{
     width:240px;
@@ -96,3 +96,22 @@
     height:280px;
     margin:  0 10px 0 10px;
 }
+
+.content_list{
+    position:relative;
+    cursor: pointer;
+}
+
+.icon_pop {
+    background: url("https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/maker_main/start_bubble.png?t=1646740909") center no-repeat;
+    background-size: cover;
+    width: 100px;
+    height: 35px;
+    border: none;
+    display:inline-block;
+    position: absolute;
+    top:-45px;
+    left:80px;
+    
+    animation: blink 2s ease-in infinite;
+  }
