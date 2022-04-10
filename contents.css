@@ -111,7 +111,45 @@
     display:inline-block;
     position: absolute;
     top:-45px;
-    left:80px;
-    
+    left:80px;    
     animation: blink 2s ease-in infinite;
   }
+
+  .badge_list{
+      width:100%;
+      height:140px;
+      margin-top: 20px;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      
+  }
+.badge_icon_list{
+    text-decoration: none;
+    margin: 0  10px 0 10px;
+}
+
+  .badge_icon_img{
+      width:85px;
+      height:85px;
+      margin-bottom:10px;
+  }
+
+  .badge_icon_name{
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+.badge_icon_list:hover{
+    color:rgb(232,52,78);
+}
+
+.cta{
+    margin-top: 20px;
+    color:rgb(232,52,78);
+
+}
+.cta:hover{
+    font-weight: bolder;
+}
