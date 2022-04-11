@@ -34,7 +34,7 @@
     border-radius: 40px;
     border:none;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
     margin:  40px 0 60px 0;
 }
@@ -153,3 +153,5 @@
 .cta:hover{
     font-weight: bolder;
 }
+
+
