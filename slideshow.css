@@ -58,17 +58,19 @@
 .fst-text{
     color:white;
     font-size: 25px;
+    font-weight: 500;
 }
 .sec-text{
     margin: 15px 0 15px 0;
     color:white;
     font-size: 45px;
-    font-weight: bold;
+    font-weight: 700;
 }
 .thr-text{
     color:white;
     font-size: 15px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 500;
 }
 
 .slide_button{
@@ -78,14 +80,15 @@
     border: none;
     background:linear-gradient( to right, #eb3d56, #fc6774 );
     color:white;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: 700;
     letter-spacing: 2px;
     cursor: pointer;
 }
 
 .slide_controller{
     margin: 15px 0 15px 0 ;
-    height: 50px;
+    height: 10px;
     display: flex;
     justify-content: right;
     text-align: center;

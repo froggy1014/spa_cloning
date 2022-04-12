@@ -1,0 +1,73 @@
+.why_sparta_content_top{
+    width:100%;
+    height:200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.why_sparta_box{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+.why_sparta_gradation{
+    width: 100%;
+    height:200px;
+    background: linear-gradient( to bottom, #fdeeef, white );;
+}
+
+.why_sparta_text_box{
+    position: absolute;
+    top:80px;
+    left:50%;
+    transform:translateX(-50%);
+}
+
+.why_sparta_text_box > h1 {
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.why_sparta_text_box > span {
+    color : #8b8b8b;
+    font-weight: 500;
+    font-size:18px;
+}
+
+.why_sparta_content_box{
+    margin-top:60px;
+    width:80%;
+    height:228px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.why_sparta_proc_dec{
+    width:408px;
+    height:227px;
+    font-weight: 500;
+    margin: 0 30px 0 30px;
+}
+
+.why_spartaa_proc_img{
+    width: 408px;
+    height: 228px;
+    margin: 0 30px 0 30px;
+}
+.why_sparta_proc_divider{
+    width:50px;
+    height:4px;
+    border-radius: 10px;;
+    background-color: #d4d4d4;
+    margin: 10px 0 10px 0;
+}

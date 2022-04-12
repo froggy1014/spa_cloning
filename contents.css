@@ -17,18 +17,27 @@
 }
 
 .content_fst_text{
-    font-weight: bold;
-    font-size: 40px;
+    font-weight: 900;
+    font-size: 30px;
 }
 
 .content_sec_text{
     margin-top: 10px;
     font-size: 20px;
+    font-weight: 500;
     color: #8c8c8c;
 }
 
+.contetn_thr_text{
+    margin: 15px 0 15px 0;
+    font-size: 20px;
+    font-weight:500;
+    color:#d63f55;
+
+}
+
 .content_switch_box{
-    width:400px;
+    width:370px;
     height:60px;
     background-color:#dbdbdb ;
     border-radius: 40px;
@@ -36,6 +45,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:8px;
     margin:  40px 0 60px 0;
 }
 
@@ -86,7 +96,7 @@
     font-size: 15px;
     font-family: 'Noto Sans KR', sans-serif;
     color:#7e7d7d;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 #chobo > div,
@@ -148,10 +158,10 @@
 .cta{
     margin-top: 20px;
     color:rgb(232,52,78);
-
+    font-weight: 500;
 }
 .cta:hover{
-    font-weight: bolder;
+    font-weight: 700;
 }
 
 

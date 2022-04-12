@@ -75,7 +75,7 @@ header{
 .menu a{
     color: white;  
     margin-left: 16px;
-    font-weight: bold;  
+    font-weight: 400;  
     text-decoration: none;
 }
 
