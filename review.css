@@ -1,0 +1,87 @@
+.sparta_review_container{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top:140px;
+}
+
+.sparta_review_text_box > h1{
+    font-weight: 900;
+    margin-bottom: 7px;
+}
+
+.sparta_review_text_box > span{
+    font-size: 18px;
+    font-weight: 500;
+    color:#8b8b8b;
+}
+
+.sparta_review_box_container{
+    display:flex;
+    justify-content: center;
+    
+    align-items: center;
+    text-align: left;
+}
+
+.sparta_review_box{
+    width:384px;
+    height:356px;
+    margin: 40px 15px 40px 15px;
+    border-radius: 30px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 0.3px rgba(0, 0, 0, 0.116) solid
+}
+
+.sparta_review_box:hover{
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.281), 0 0 15px rgba(0, 0, 0, 0.26);
+}
+
+.sparta_review_thumnail{
+    width: 100%;
+    height:210px;
+    background-size:cover;
+    position: relative;
+}
+
+.sparta_review_text_box{
+    margin: 20px;
+}
+
+.sparta_review_deco{
+    color:#8b8b8b;
+}
+.sparta_review_comment{
+    color:black;
+    margin-top:15px;
+    font-size:18px;
+    font-weight: 500;
+}
+
+
+.thumnail_playbtn {
+    width:52px ;
+    height:52px;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 0.486);
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.thumnail_play{
+    color:rgba(0, 0, 0, 0.6)
+}
+
