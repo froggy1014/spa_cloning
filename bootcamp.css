@@ -1,0 +1,14 @@
+.sparta_bootcamp_content_box{
+    width:100%;
+    height: auto;
+    margin: 40px 0 90px 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sparta_bootcamp_content{
+    width:588px;
+    height:190px;
+    margin: 0 12px 0 12px;
+}

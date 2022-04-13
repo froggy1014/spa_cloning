@@ -12,6 +12,8 @@ $('.content_button_shape').click(function(){
         $('#dev').addClass('active')
         $('#dev').siblings().removeClass('active').addClass('hide')
     }
-
 })
+
+
+
 

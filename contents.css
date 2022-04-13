@@ -39,7 +39,7 @@
 .content_switch_box{
     width:370px;
     height:60px;
-    background-color:#dbdbdb ;
+    background-color:#e4e4e49d ;
     border-radius: 40px;
     border:none;
     display: flex;
@@ -60,7 +60,7 @@
  border-radius: 40px;
  font-size:18px;
  border: none;
- background-color: #dbdbdb;
+ background-color: transparent;
  color: gray;
  cursor:pointer;
 }
@@ -140,20 +140,32 @@
     margin: 0  10px 0 10px;
 }
 
-  .badge_icon_img{
+.badge_icon_list:hover > div{
+    color:rgb(232,52,78);
+}
+
+.badge_icon_list:not(:hover) > img:nth-child(2),
+.badge_icon_list:hover > img:first-child{
+    display:none;
+}
+.badge_icon_list:hover > img:nth-child(2),
+.badge_icon_list:not(:hover) > img:first-child{
+    display:inline-block;
+}
+
+
+.badge_icon_img{
       width:85px;
       height:85px;
       margin-bottom:10px;
-  }
-
-  .badge_icon_name{
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-.badge_icon_list:hover{
-    color:rgb(232,52,78);
 }
+
+.badge_icon_name{
+    text-decoration: none;
+    font-weight: 500;
+    color: black;
+}
+
 
 .cta{
     margin-top: 20px;
@@ -163,5 +175,6 @@
 .cta:hover{
     font-weight: 700;
 }
+
 
 
