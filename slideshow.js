@@ -3,7 +3,7 @@ $('.myslider').slick({
     //dots:true,             // 슬라이드 표시 점들
     slidesToShow: 1,       // 박스안에 보이는 슬라이드 개수 
     slidesToScroll: 1,     // 한번에 움직이는 슬라이드 개수 
-    autoplaySpeed: 1000,
+    autoplaySpeed: 2000,
     speed:500,
     fade: true,
     cssEase: 'linear',
