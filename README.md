@@ -3,13 +3,15 @@
 ![](https://velog.velcdn.com/images/tkclzl97/post/9419cea6-f1eb-4831-9b33-4dd473f89d58/image.png)
 
 <br>
-<br>
-<br>
+
 
 # 👀 개요
 
 <pre>항해99 8기를 들어가기를 준비하면서 일단 제대로 웹사이트 하나 클론코딩을 해보고 싶었고, 자바스크립트랑 jQuery도 아직 부족하다고 생각하니 <br>
 react공부하는 건 계속 밀어두고 있는 상태이고 HTML,CSS는 마침표를 찍고싶었고 그래서 내가 수강하고있는 스파르타코딩클럽 웹페이지를 클론해보고자 했습니다.</pre>
+
+<br>
+<br>
 
 # 📄 클론한 웹페이지 주소 
 
@@ -17,6 +19,9 @@ react공부하는 건 계속 밀어두고 있는 상태이고 HTML,CSS는 마침
 
 ### <center>[<span style="color:#00d482">& 내가 클론한 페이지</span>](#none, "스파르타코딩클럽")</span></center>
 <center><span style="color:#cbd0ce">(아직 부족하여 완성하고 도메인넣겠습니다.)</span></center>
+
+<br>
+<br>
 
 # <center>💡기능 구현</center>
 
@@ -49,7 +54,8 @@ https://www.jsdelivr.com/projects/jquery.slick
 <br>
 <img src="/gif/4.gif" width="600" height="507" />
 
-
+<br>
+<br>
 
 # <center>❌ 못한 것들</center>
 
