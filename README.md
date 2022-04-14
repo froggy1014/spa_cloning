@@ -26,9 +26,8 @@ HTML,CSS는 마침표를 찍고싶었고 그래서 내가 수강하고있는 스
 # <center>💡기능 구현</center>
 
 <br>
-## <li>
-<span style="color:#df4af3"><b>:hover<b></span> 
-를 이용한 drop-down 기능구현
+<li>
+## :hover를 이용한 drop-down 기능구현
 </li>
 <br>
 <img src="/gif/1.gif" width="1200" height="232" />
