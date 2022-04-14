@@ -26,7 +26,7 @@ HTML,CSS는 마침표를 찍고싶었고 그래서 내가 수강하고있는 스
 # <center>💡기능 구현</center>
 
 <br>
-<li>
+## <li>
 <span style="color:#df4af3"><b>:hover<b></span> 
 를 이용한 drop-down 기능구현
 </li>
@@ -35,13 +35,13 @@ HTML,CSS는 마침표를 찍고싶었고 그래서 내가 수강하고있는 스
 
 <br>
 <br>
-<li>Scroll 시 header <span style="color:#224adb"><b>CSS<b></span> 변경 구현</li>  
+## <li>Scroll 시 header <span style="color:#224adb"><b>CSS<b></span> 변경 구현</li>  
 <br>
 <img src="/gif/2.gif" width="1200" height="202" />
 
 <br>
 <br>
-<li><span style="color:#4af3df"><b>slick<b></span>을 이용한 Carousel 기능 구현</li>
+## <li><span style="color:#4af3df"><b>slick<b></span>을 이용한 Carousel 기능 구현</li>
 
 > CDN <br>
 https://cdnjs.com/libraries/slick-carousel <br>
@@ -53,7 +53,7 @@ https://www.jsdelivr.com/projects/jquery.slick
 
 <br>
 <br>
-<li>Contents switching
+## <li>Contents switching
 및 widget 기능 구현</li>
   
 <br>
@@ -64,14 +64,12 @@ https://www.jsdelivr.com/projects/jquery.slick
 
 # <center>❌ 못한 것들</center>
 
-<center>
 
-~~Bilding Popup(modal) for video play~~
+## ~~Bilding Popup(modal) for video play~~
 
 
-~~Sign in and up~~
+## ~~Sign in and up~~
 
-</center>
 
 
 
