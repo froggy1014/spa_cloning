@@ -1,6 +1,6 @@
 ## ✨ Spartacodingclub_web cloning
 
-![image]("https://user-images.githubusercontent.com/76844856/163440376-9929104e-d1a0-4c3e-90a3-27cb415f0e08.png" width="1200" height="232")
+![image](https://user-images.githubusercontent.com/76844856/163440376-9929104e-d1a0-4c3e-90a3-27cb415f0e08.png){: width="200%" height="200%"}
 
 <br>
 
