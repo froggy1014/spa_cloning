@@ -26,21 +26,20 @@ HTML,CSS는 마침표를 찍고싶었고 그래서 내가 수강하고있는 스
 # <center>💡기능 구현</center>
 
 <br>
-<li>
-## :hover를 이용한 drop-down 기능구현
-</li>
+## · :hover를 이용한 drop-down 기능구현
+
 <br>
 <img src="/gif/1.gif" width="1200" height="232" />
 
 <br>
 <br>
-## <li>Scroll 시 header <span style="color:#224adb"><b>CSS<b></span> 변경 구현</li>  
+## · Scroll 시 header <span style="color:#224adb"><b>CSS<b></span> 변경 구현
 <br>
 <img src="/gif/2.gif" width="1200" height="202" />
 
 <br>
 <br>
-<li> ## slick<b></span>을 이용한 Carousel 기능 구현</li>
+## · slick<b></span>을 이용한 Carousel 기능 구현
 
 > CDN <br>
 https://cdnjs.com/libraries/slick-carousel <br>
@@ -52,8 +51,7 @@ https://www.jsdelivr.com/projects/jquery.slick
 
 <br>
 <br>
-## <li>Contents switching
-및 widget 기능 구현</li>
+## · Contents switching 및 widget 기능 구현 
   
 <br>
 <img src="/gif/4.gif" width="1200" height="1014" />
