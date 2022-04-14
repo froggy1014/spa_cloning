@@ -41,7 +41,7 @@ HTML,CSS는 마침표를 찍고싶었고 그래서 내가 수강하고있는 스
 
 <br>
 <br>
-## <li><span style="color:#4af3df"><b>slick<b></span>을 이용한 Carousel 기능 구현</li>
+<li> ## slick<b></span>을 이용한 Carousel 기능 구현</li>
 
 > CDN <br>
 https://cdnjs.com/libraries/slick-carousel <br>
