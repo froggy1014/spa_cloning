@@ -3,7 +3,9 @@
 ![](https://velog.velcdn.com/images/tkclzl97/post/9419cea6-f1eb-4831-9b33-4dd473f89d58/image.png)
 
 # <center> 👀 개요 </center>
-<pre>항해99 8기를 들어가기를 준비하면서 일단 제대로 웹사이트 하나 클론코딩을 해보고 싶었고, 자바스크립트랑 jQuery도 아직 부족하다고 생각하니 react공부하는 건 계속 밀어두고 있는 상태이고 <span style="color:#da4924"><b>HTML<b></span>, <span style="color:#224adb"><b>CSS<b></span>는 마침표를 찍고싶었고 그래서 내가 수강하고있는 스파르타코딩클럽 웹페이지를 클론해보고자 했습니다.</pre>
+
+<pre>항해99 8기를 들어가기를 준비하면서 일단 제대로 웹사이트 하나 클론코딩을 해보고 싶었고, 자바스크립트랑 jQuery도 아직 부족하다고 생각하니 <br>
+react공부하는 건 계속 밀어두고 있는 상태이고 HTML,CSS는 마침표를 찍고싶었고 그래서 내가 수강하고있는 스파르타코딩클럽 웹페이지를 클론해보고자 했습니다.</pre>
 
 # <center>📄 클론한 웹페이지 주소 </center>
 
@@ -20,7 +22,7 @@
 를 이용한 drop-down 기능구현
 </li>
 
-<img src="/gif/1.gif" width="1000" height="600" />
+<img src="/gif/1.gif" width="600" height="116" />
 
 <li>Scroll 시 header <span style="color:#224adb"><b>CSS<b></span> 변경 구현</li>
 
