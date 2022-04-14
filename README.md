@@ -32,11 +32,11 @@ react공부하는 건 계속 밀어두고 있는 상태이고 HTML,CSS는 마침
 </li>
 <br>
 <img src="/gif/1.gif" width="600" height="116" />
-
+<br>
 <li>Scroll 시 header <span style="color:#224adb"><b>CSS<b></span> 변경 구현</li>  
 <br>
 <img src="/gif/2.gif" width="600" height="101" />
-
+<br>
 <li><span style="color:#4af3df"><b>slick<b></span>을 이용한 Carousel 기능 구현</li>
 
 > CDN 
@@ -46,7 +46,7 @@ https://www.jsdelivr.com/projects/jquery.slick
 
 <br>
 <img src="/gif/3.gif" width="600" height="240" />
-
+<br>
 
 <li>Contents switching
 및 widget 기능 구현</li>
