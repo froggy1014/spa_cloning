@@ -15,7 +15,7 @@ react공부하는 건 계속 밀어두고 있는 상태이고 HTML,CSS는 마침
 
 # 📄 클론한 웹페이지 주소 
 
-### <center>[<span style="color:#00bcd4">& 스파르타코딩클럽</span>](https://spartacodingclub.kr/, "스파르타코딩클럽")</span></center>
+### <center>[<span style="color:#00bcd4">& 스파르타코딩클럽</span>](https://spartacodingclub.kr/ , "스파르타코딩클럽")</span></center>
 
 ### <center>[<span style="color:#00d482">& 내가 클론한 페이지</span>](#none, "스파르타코딩클럽")</span></center>
 <center><span style="color:#cbd0ce">(아직 부족하여 완성하고 도메인넣겠습니다.)</span></center>
