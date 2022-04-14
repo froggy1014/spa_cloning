@@ -44,7 +44,7 @@ HTML,CSS는 마침표를 찍고싶었고 그래서 내가 수강하고있는 스
 <br>
 <li><span style="color:#4af3df"><b>slick<b></span>을 이용한 Carousel 기능 구현</li>
 
-> CDN 
+> CDN <br>
 https://cdnjs.com/libraries/slick-carousel <br>
 https://www.jsdelivr.com/projects/jquery.slick
 >>사용 예시는 사이트에 들어가서 확인부탁드립니다.
