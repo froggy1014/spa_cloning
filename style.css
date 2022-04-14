@@ -40,4 +40,7 @@ footer{
     color:white;
 }
 
-
+.grayout {
+    opacity: 0.6; /* Real browsers */
+    filter: alpha(opacity = 60); /* MSIE */
+}
