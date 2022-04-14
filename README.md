@@ -2,7 +2,9 @@
 
 ![](https://velog.velcdn.com/images/tkclzl97/post/9419cea6-f1eb-4831-9b33-4dd473f89d58/image.png)
 
----
+<br>
+<br>
+<br>
 
 # 👀 개요
 
@@ -26,7 +28,9 @@ react공부하는 건 계속 밀어두고 있는 상태이고 HTML,CSS는 마침
 <br>
 <img src="/gif/1.gif" width="600" height="116" />
 
-<li>Scroll 시 header <span style="color:#224adb"><b>CSS<b></span> 변경 구현</li>
+<li>Scroll 시 header <span style="color:#224adb"><b>CSS<b></span> 변경 구현</li>  
+<br>
+<img src="/gif/2.gif" width="600" height="101" />
 
 <li><span style="color:#4af3df"><b>slick<b></span>을 이용한 Carousel 기능 구현</li>
 
@@ -35,10 +39,15 @@ react공부하는 건 계속 밀어두고 있는 상태이고 HTML,CSS는 마침
 https://www.jsdelivr.com/projects/jquery.slick
 >>>사용 예시는 사이트에 들어가서 확인부탁드립니다.
 
+<br>
+<img src="/gif/3.gif" width="600" height="240" />
 
 
 <li>Contents switching
 및 widget 기능 구현</li>
+  
+<br>
+<img src="/gif/4.gif" width="600" height="507" />
 
 
 
