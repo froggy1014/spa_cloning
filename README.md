@@ -1,4 +1,4 @@
-## ✨ Spartacodingclub_web cloning
+# ✨ Spartacodingclub_web cloning
 
 <img src="https://user-images.githubusercontent.com/76844856/163440376-9929104e-d1a0-4c3e-90a3-27cb415f0e08.png"  width="1000" height="400"/>
 <br>
