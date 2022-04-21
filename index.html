@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/widget.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/whysparta.css">
+    <link rel="stylesheet" href="css/modal.css">
     <!--Google-Font-->
     <link href="https://fonts.googleapis.com/css2?family=Jua&family=Kirang+Haerang&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
@@ -385,18 +386,18 @@
                 <span>본격 커리어 전환부터 내 아이디어로 창업까지</span>
             </div>
             <div class="sparta_review_box_container">
-                <div class="sparta_review_box">
+                <div class="sparta_review_box open_review1 ">
                     <div class="sparta_review_thumnail" style="background-image:url('https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/interview_thumb_고미송.png')"><div class="thumnail_playbtn"><i class="fa-solid play_toggle fa-play thumnail_play"></i></div>
                     </div>
                     <div class="sparta_review_text_box">
-                        <span class="sparta_review_deco">핵클(Hackle)에 취업한  <span style="font-weight:bold; color:black">고미송 님</  span></span>
+                        <span class="sparta_review_deco">핵클(Hackle)에 취업한 <span style="font-weight:bold; color:black">고미송 님</span></span>
                         <p class="sparta_review_comment">"공기업을 평생 직장이라고  생각했던 제가 개
                             <br>
                             발자를 꿈꾸게 됐어요!"
                         </p>
                     </div>
                 </div>
-                <div class="sparta_review_box">
+                <div class="sparta_review_box open_review2">
                     <div class="sparta_review_thumnail" style="background-image:url('https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/interview_thumb_최상언.png')"><div class="thumnail_playbtn"><i class="fa-solid play_toggle fa-play thumnail_play"></i></div>
                     </div>
                     <div class="sparta_review_text_box">
@@ -407,7 +408,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="sparta_review_box">
+                <div class="sparta_review_box open_review3">
                     <div class="sparta_review_thumnail" style="background-image:url('https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/interview_thumb_박현솔.png')"><div class="thumnail_playbtn"><i class="fa-solid play_toggle fa-play thumnail_play"></i></div>
                     </div>
                     <div class="sparta_review_text_box">
@@ -418,6 +419,29 @@
                         </p>
                     </div>
                 </div>
+                <dialog class="modal close-button1" id="modal1">
+                    <form class="form" method="dialog">
+                      <div class="modal_container">
+                      <iframe id="review_v1" width="100%" height="100%" src="https://www.youtube.com/embed/7Vf64vYeSwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </form>
+                </dialog>
+
+                <dialog class="modal close-button2" id="modal2">
+                    <form class="form" method="dialog">
+                      <div class="modal_container">
+                        <iframe id="review_v2" width="100%" height="100%" src="https://www.youtube.com/embed/yS1A2ELIwgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </form>
+                </dialog>
+
+                <dialog class="modal close-button3" id="modal3">
+                    <form class="form" method="dialog">
+                      <div class="modal_container">
+                        <iframe id="review_v3" width="100%" height="100%" src="https://www.youtube.com/embed/Cnr5tHZXI5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                    </form>
+                </dialog>
                 
             </div>
             <div class="sparta_review_link">
@@ -442,6 +466,9 @@
                 <a href="#none"><img class="sparta_bootcamp_content" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/comp/half/maker_main/banner_nb_desktop.png?t=1636027656"></a>
                 <a href="#none"><img class="sparta_bootcamp_content" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/comp/half/maker_main/banner_hanghae_desktop.png?t=1636027656"></a>
             </div>
+           
+
+            
         </div>
     
     <footer class="nom-font">
@@ -590,7 +617,7 @@
     <script src="js/main.js"></script>		
     <script src="js/contents.js"></script>
     <script src="js/widget.js"></script>
-    </script>
+    <script src="js/modal.js"></script>
 </body>
 </html>
 
