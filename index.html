@@ -386,7 +386,7 @@
                 <span>본격 커리어 전환부터 내 아이디어로 창업까지</span>
             </div>
             <div class="sparta_review_box_container">
-                <div class="sparta_review_box open_review1 ">
+                <div onclick="Modalshow(this.id)" class="sparta_review_box open_button" id="review_1">
                     <div class="sparta_review_thumnail" style="background-image:url('https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/interview_thumb_고미송.png')"><div class="thumnail_playbtn"><i class="fa-solid play_toggle fa-play thumnail_play"></i></div>
                     </div>
                     <div class="sparta_review_text_box">
@@ -397,7 +397,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="sparta_review_box open_review2">
+                <div onclick="Modalshow(this.id)" class="sparta_review_box open_button" id="review_2">
                     <div class="sparta_review_thumnail" style="background-image:url('https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/interview_thumb_최상언.png')"><div class="thumnail_playbtn"><i class="fa-solid play_toggle fa-play thumnail_play"></i></div>
                     </div>
                     <div class="sparta_review_text_box">
@@ -408,7 +408,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="sparta_review_box open_review3">
+                <div onclick="Modalshow(this.id)" class="sparta_review_box open_button" id="review_3">
                     <div class="sparta_review_thumnail" style="background-image:url('https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/interview_thumb_박현솔.png')"><div class="thumnail_playbtn"><i class="fa-solid play_toggle fa-play thumnail_play"></i></div>
                     </div>
                     <div class="sparta_review_text_box">
@@ -419,26 +419,10 @@
                         </p>
                     </div>
                 </div>
-                <dialog class="modal close-button1" id="modal1">
+                <dialog class="modal close_button" id="modal">
                     <form class="form" method="dialog">
                       <div class="modal_container">
-                      <iframe id="review_v1" width="100%" height="100%" src="https://www.youtube.com/embed/7Vf64vYeSwo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      </div>
-                    </form>
-                </dialog>
-
-                <dialog class="modal close-button2" id="modal2">
-                    <form class="form" method="dialog">
-                      <div class="modal_container">
-                        <iframe id="review_v2" width="100%" height="100%" src="https://www.youtube.com/embed/yS1A2ELIwgg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      </div>
-                    </form>
-                </dialog>
-
-                <dialog class="modal close-button3" id="modal3">
-                    <form class="form" method="dialog">
-                      <div class="modal_container">
-                        <iframe id="review_v3" width="100%" height="100%" src="https://www.youtube.com/embed/Cnr5tHZXI5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      <iframe id="iframe" width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                       </div>
                     </form>
                 </dialog>
