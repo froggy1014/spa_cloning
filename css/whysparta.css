@@ -71,3 +71,36 @@
     background-color: #d4d4d4;
     margin: 10px 0 10px 0;
 }
+
+
+@media screen and (max-width:1024px) {
+
+    .why_sparta_content_box{
+        height:100%;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .why_sparta_content_box:first-child,
+    .why_sparta_content_box:nth-child(3){
+        flex-direction: column-reverse;
+    }
+    .why_sparta_proc_dec{
+        height:180px;
+    }
+    .why_sparta_proc_divider{
+        display:none;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+
+  .why_sparta_text_box > h1{
+    font-size:25px;
+  }
+}
+

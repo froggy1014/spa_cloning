@@ -41,3 +41,20 @@
     align-items: center;
     justify-content: center;
 }
+
+@media screen and (max-width:1024px) {
+    .sparta_free_class_box{
+        justify-content: space-evenly;
+    }
+    .sparta_free_class_text_box > span{
+        font-size:15px;
+    }
+    .sparta_free_class_text_box > h1{
+        font-size:20px;
+    }
+    .sparta_free_class_btn{
+        display:none;
+    }
+}
+
+

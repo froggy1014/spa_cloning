@@ -85,3 +85,12 @@
     color:rgba(0, 0, 0, 0.6)
 }
 
+@media screen and (max-width:1024px) {
+    .sparta_review_box_container{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+}

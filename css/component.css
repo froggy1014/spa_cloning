@@ -59,3 +59,23 @@
     font-weight: 900;
     color:#e8334f;
 }
+
+
+@media screen and (max-width:1024px) {
+    .component_box{
+        flex-direction: column;
+        height:auto;
+        align-items: center;
+    }
+    .component_text_box{
+        text-align: center;
+        align-items: center;
+    }
+}
+
+
+@media screen and (max-width:767px) {
+    .accum_text_box > span{
+        font-size: 25px;
+    }
+}

@@ -585,7 +585,7 @@
             _.$slider.children().children().children()
                 .css({
                     'width':(100 / _.options.slidesPerRow) + '%',
-                    'display': 'inline-block'
+                    'display': 'flex'
                 });
 
         }
@@ -599,13 +599,13 @@
         var sliderWidth = _.$slider.width();
         var windowWidth = window.innerWidth || $(window).width();
 
-        if (_.respondTo === 'window') {
-            respondToWidth = windowWidth;
-        } else if (_.respondTo === 'slider') {
-            respondToWidth = sliderWidth;
-        } else if (_.respondTo === 'min') {
-            respondToWidth = Math.min(windowWidth, sliderWidth);
-        }
+        // if (_.respondTo === 'window') {
+        //     respondToWidth = windowWidth;
+        // } else if (_.respondTo === 'slider') {
+        //     respondToWidth = sliderWidth;
+        // } else if (_.respondTo === 'min') {
+        //     respondToWidth = Math.min(windowWidth, sliderWidth);
+        // }
 
         if ( _.options.responsive &&
             _.options.responsive.length &&
