@@ -12,3 +12,17 @@
     height:190px;
     margin: 0 12px 0 12px;
 }
+
+@media screen and (max-width:1024px) {
+    .sparta_bootcamp_content_box{
+        width:100%;
+        transform:scale(0.8);
+        flex-direction: column;
+       
+    }
+    .sparta_bootcamp_content{
+        margin-bottom:30px;
+    }
+    
+      
+    }
