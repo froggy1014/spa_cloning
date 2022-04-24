@@ -1,463 +1,599 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!--CSS-->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/header.css">
-    <link rel="stylesheet" href="css/slideshow.css">
-    <link rel="stylesheet" href="css/contents.css">
-    <link rel="stylesheet" href="css/component.css">
-    <link rel="stylesheet" href="css/review.css">
-    <link rel="stylesheet" href="css/freeclass.css">
-    <link rel="stylesheet" href="css/bootcamp.css">
-    <link rel="stylesheet" href="css/widget.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/whysparta.css">
-    <link rel="stylesheet" href="css/modal.css">
-    <!--Google-Font-->
-    <link href="https://fonts.googleapis.com/css2?family=Jua&family=Kirang+Haerang&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
-    <!--Font-Awesome-->
-    <script src="https://kit.fontawesome.com/836e03adc1.js" crossorigin="anonymous"></script>
-    <!--jQuery CDN-->
-    <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <!--Slcik.js-->
-    <link rel="stylesheet" href="slick/slick.css">
-    <link rel="stylesheet" href="slick/slick-theme.css">
-    <script src="slick/slick.js"></script>
-    <title>스파르타코딩클럽</title>
-</head>
-<body>
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+            <!--CSS-->
+            <link rel="stylesheet" href="css/style.css">
+            <link rel="stylesheet" href="css/header.css">
+            <link rel="stylesheet" href="css/slideshow.css">
+            <link rel="stylesheet" href="css/contents.css">
+            <link rel="stylesheet" href="css/component.css">
+            <link rel="stylesheet" href="css/review.css">
+            <link rel="stylesheet" href="css/freeclass.css">
+            <link rel="stylesheet" href="css/bootcamp.css">
+            <link rel="stylesheet" href="css/widget.css">
+            <link rel="stylesheet" href="css/footer.css">
+            <link rel="stylesheet" href="css/whysparta.css">
+            <link rel="stylesheet" href="css/modal.css">
+            <!--Google-Font-->
+            <link href="https://fonts.googleapis.com/css2?family=Jua&family=Kirang+Haerang&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+            <!--Font-Awesome-->
+            <script src="https://kit.fontawesome.com/836e03adc1.js" crossorigin="anonymous"></script>
+            <!--jQuery CDN-->
+            <script  src="http://code.jquery.com/jquery-latest.min.js"></script>
+            <!--Slcik.js-->
+            <link rel="stylesheet" href="slick/slick.css">
+            <link rel="stylesheet" href="slick/slick-theme.css">
+            <script src="slick/slick.js"></script>
+            <title>스파르타코딩클럽</title>
+        </head>
+    <body>
     <div class="wrapper">
-        <header>
-            <nav class="header">
-            <div class="logo">
-                <img onClick="window.location.reload()" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/icons/logo_v2.svg?t=1633489495" style="cursor: pointer; height: 40px;">
-                <a onClick="window.location.reload()" class="caption">coding club</a>
-                </div>
-            <ul class="menu nom-font">                
-                    <a href="#none">수업탐색</a>      
-                    <a href="#none">작품 전시회</a>         
-                    <a href="#none">수강생 후기</a>         
-                    <a href="#none">스파르타 이야기</a>
-                    <a href="#none">국비 지원</a>
-            </ul>
-            <ul class="right_menu nom-font">
-                <li class="user_icon">
-                    <i class="fa-solid fa-circle-user fa-2x"></i>
-                    <div class="dropdown-user">
-                        <a href="#none">나의 강의실</a>
-                        <a href="#none">마이페이지</a>
-                        <a href="#none">친구 초대하기</a>
+            <header>
+                <nav class="header">
+                <div class="logo">
+                    <img onClick="window.location.reload()" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/icons/logo_v2.svg?t=1633489495" style="cursor: pointer; height: 40px;">
+                    <a onClick="window.location.reload()" class="caption">coding club</a>
                     </div>
-                </li>                
-                <li class="menu_icon">
-                    <i class="fa-solid fa-align-justify fa-2x"></i>
-                    <div class="dropdown-menu">
-                        <a href="#none">스파르타코딩클럽</a>
-                        <a href="#none">{창}</a>
-                        <a href="#none">항해99</a>
-                        <a href="#none">기업교육</a>
+                <ul class="menu nom-font">                
+                        <a href="#none">수업탐색</a>      
+                        <a href="#none">작품 전시회</a>         
+                        <a href="#none">수강생 후기</a>         
+                        <a href="#none">스파르타 이야기</a>
+                        <a href="#none">국비 지원</a>
+                </ul>
+                <ul class="right_menu nom-font">
+                    <li class="user_icon">
+                        <i class="fa-solid fa-circle-user fa-2x"></i>
+                        <div class="dropdown-user">
+                            <a href="#none">나의 강의실</a>
+                            <a href="#none">마이페이지</a>
+                            <a href="#none">친구 초대하기</a>
+                        </div>
+                    </li>                
+                    <li class="menu_icon">
+                        <i class="fa-solid fa-align-justify fa-2x"></i>
+                        <div class="dropdown-menu">
+                            <a href="#none">스파르타코딩클럽</a>
+                            <a href="#none">{창}</a>
+                            <a href="#none">항해99</a>
+                            <a href="#none">기업교육</a>
+                        </div>
+                    </li>                
+                </ul>
+                </nav>
+            </header>
+            <div class="myslider">
+            <div class="fst-slide slide_page">
+                <container class="text-box nom-font">
+                    <span class="fst-text">선착순 100명모집</span>
+                    <p class="sec-text">디자이너 멥버쉽 2기 선착순 모집중!</p>
+                    <span class="thr-text">실전 프로젝트 경험부터 디자이너들과 네트워킹까지,<br>스파르타
+                        디자이너 멥버쉽에서 함께해요!
+                    </span><br>
+                    <button class="slide_button nom-font">지원하러 가기<i class="fa-solid fa-arrow-right-long"></i></button>
+                    <div class="slide_controller">
+                        <div class="ctl_area ctl_area_cnt">1/4</div>
+                        <div class="ctl_area ctl_area_arrow">
+                                <div class="slide-prev"><i class="fa-solid fa-angle-left left"></i></div>
+                                <div class="slide-next"><i class="fa-solid fa-angle-right right"></i></div>
+                        </div>
+                        <div class="ctl_area ctl_area_play auto_play">
+                            <i class="fa-solid play_toggle fa-play"></i>
+                        </div>
                     </div>
-                </li>                
-            </ul>
-            </nav>
-        </header>
-        <div class="myslider">
-        <div class="fst-slide slide_page">
-            <container class="text-box nom-font">
-                <span class="fst-text">선착순 100명모집</span>
-                <p class="sec-text">디자이너 멥버쉽 2기 선착순 모집중!</p>
-                <span class="thr-text">실전 프로젝트 경험부터 디자이너들과 네트워킹까지,<br>스파르타
-                    디자이너 멥버쉽에서 함께해요!
-                </span><br>
-                <button class="slide_button nom-font">지원하러 가기<i class="fa-solid fa-arrow-right-long"></i></button>
-                <div class="slide_controller">
-                    <div class="ctl_area ctl_area_cnt">1/4</div>
-                    <div class="ctl_area ctl_area_arrow">
-                            <div class="slide-prev"><i class="fa-solid fa-angle-left left"></i></div>
-                            <div class="slide-next"><i class="fa-solid fa-angle-right right"></i></div>
-                    </div>
-                    <div class="ctl_area ctl_area_play auto_play">
-                        <i class="fa-solid play_toggle fa-play"></i>
-                    </div>
-                </div>
-            </container>
-            
-        </div>
-        <div class="sec-slide slide_page">
-            <container class="text-box nom-font">
-                <span class="fst-text">1기 조기 마감, 2기를 모집합니다.</span>
-                <p class="sec-text">직장인 창업 부트캠프 {창}</p>
-                <span class="thr-text">평일에는 직장인, 주말엔 창업가로 제 2의 삶에 도전하세요.<br>VOD 형태로 압축한 {창} Lite도 함께 론칭했습니다.
-                </span><br>
-                <button class="slide_button nom-font" style="background:#0e17ae;">지원하러 가기<i class="fa-solid fa-arrow-right-long"></i></button>
-                <div class="slide_controller">
-                    <div class="ctl_area ctl_area_cnt">2/4</div>
-                    <div class="ctl_area ctl_area_arrow">
-                            <div class="slide-prev"><i class="fa-solid fa-angle-left left"></i></div>
-                            <div class="slide-next"><i class="fa-solid fa-angle-right right"></i></div>
-                    </div>
-                    <div class="ctl_area ctl_area_play auto_play">
-                        <i class="fa-solid play_toggle fa-play"></i>
-                    </div>
-                </div>
-            </container>
-        </div>
-        <div class="thr-slide slide_page">
-            <container class="text-box nom-font">
-                <span class="fst-text">100명 모집 시 조기마감</span>
-                <p class="sec-text">내일배움캠프 2기 모집중!</p>
-                <span class="thr-text">1800만원 상당의 개발자 취업 코스를 전액 무료로.<br>4개월 후 현업에서 환영받는 개발자로 취업하세요.
-                </span><br>
-                <button class="slide_button nom-font">지원하러 가기<i class="fa-solid fa-arrow-right-long"></i></button>
-                <div class="slide_controller">
-                    <div class="ctl_area ctl_area_cnt">3/4</div>
-                    <div class="ctl_area ctl_area_arrow">
-                            <div class="slide-prev"><i class="fa-solid fa-angle-left left"></i></div>
-                            <div class="slide-next"><i class="fa-solid fa-angle-right right"></i></div>
-                    </div>
-                    <div class="ctl_area ctl_area_play auto_play">
-                        <i class="fa-solid play_toggle fa-play"></i>
-                    </div>
-                </div>
-            </container>
-        </div>
-        <div class="for-slide slide_page">
-            <container class="text-box nom-font">
-                <span class="fst-text">나만 몰라서 답답했던 코딩용어, 1시간만에!</span>
-                <p class="sec-text">무료로 듣는 필수 코딩용어 해설</p>
-                <span class="thr-text">출퇴근 길에도 핵심만 빠르게!<br>언제 어디서나 가볍게 들을 수 있어요.
-                </span><br>
-                <button class="slide_button nom-font">지원하러 가기<i class="fa-solid fa-arrow-right-long"></i></button>
-                <div class="slide_controller">
-                    <div class="ctl_area ctl_area_cnt">4/4</div>
-                    <div class="ctl_area ctl_area_arrow">
-                            <div class="slide-prev"><i class="fa-solid fa-angle-left left"></i></div>
-                            <div class="slide-next"><i class="fa-solid fa-angle-right right"></i></div>
-                    </div>
-                    <div class="ctl_area ctl_area_play auto_play">
-                        <i class="fa-solid play_toggle fa-play"></i>
-                    </div>
-                </div>
-            </container>
-        </div>
-        </div>
-    <container class="contents_box">
-        <div class="content_fst_text nom-font">내 목적에 딱! 맞는 코딩수업</div>
-        <div class="content_sec_text nom-font">왕초보를 위한 가장 기초부터 개발자 취업을 위한 심화내용까지</div>
-        <div class="content_switch_box">
-            <button class="content_button_shape chobo btn_active">왕초보 탈출
-            </button>
-            <button class="content_button_shape data">데이터분석가</button>
-            <button class="content_button_shape dev">개발자 취업</button>
-        </div>
-        <div  class="content_list_box">
-            <div id="chobo" class="content_list active">
-                <div class="content_list_card">
-                    <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/web.png?t=1643863790">
-                    <div class="content_list_card_font">웹개발의 A부터 Z까지! 누구나</div>
-                    <div class="content_list_card_font">쉽고 재밌게 코딩에 입문할... </div>
-                    <div class="content_list_card_price"><b style="color:#e9328e">56%</b> 월 71,666원 (6개월 할부) </div>
-                </div>
-                <div class="content_list_card">
-                    <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/app_bgn.png?t=1643863790">
-                    <div class="content_list_card_font">앱개발은 이걸로 끝! iOS와 안</div>
-                    <div class="content_list_card_font">드로이드 앱을 한번에 만들...</div>
-                    <div class="content_list_card_price"><b style="color:#e9328e">56%</b> 월 71,666원 (6개월 할부) </div>
-                </div>
-                <div class="content_list_card">
-                    <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/game_bgn.png?t=1643863790">
-                    <div class="content_list_card_font">웹개발의 A부터 Z까지! 누구나</div>
-                    <div class="content_list_card_font">쉽고 재밌게 코딩에 입문할... </div>
-                    <div class="content_list_card_price"><b style="color:#e9328e">56%</b> 월 71,666원 (6개월 할부) </div>
-                </div>
-                <div class="content_list_card">
-                    <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/sql_bgn.png?t=1644410720">
-                    <div class="content_list_card_font">웹개발의 A부터 Z까지! 누구나</div>
-                    <div class="content_list_card_font">쉽고 재밌게 코딩에 입문할... </div>
-                    <div class="content_list_card_price"><b style="color:#e9328e">17%</b> 월 68,833원 (6개월 할부) </div>
-                </div>
-                <span class="icon_pop"></span>
-            </div>
-            <div id="data" class="content_list hide">
-                <div class="content_list_card">
-                    <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/data_bgn.png?t=1635751337">
-                    <div class="content_list_card_font">현업에서 쓰이는 데이터 분석 &</div>
-                    <div class="content_list_card_font">인사이트 추출 방법을 핵심만</div>
-                    <div class="content_list_card_price"><b style="color:#e9328e">18%</b> 월 68,333원 (6개월 할부) </div>
-                </div>
-                <div class="content_list_card">
-                    <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/ml_bgn.png?t=1635751337">
-                    <div class="content_list_card_font">수학 부담기는 쫙 빼고! 머신러</div>
-                    <div class="content_list_card_font">닝의 핵심 내용을 듬뿍 담은...</div>
-                    <div class="content_list_card_price"><b style="color:#e9328e">22%</b> 월 65,000원 (6개월 할부) </div>
-                </div>
-                <div class="content_list_card">
-                    <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/sql_bgn.png?t=1644410720">
-                    <div class="content_list_card_font">이력서에 'SQL 능숙'이라고 당</div>
-                    <div class="content_list_card_font">당하게! 자유자재로 데이터...</div>
-                    <div class="content_list_card_price"><b style="color:#e9328e">17%</b> 월 68,833원 (6개월 할부) </div>
-                </div>
-                <div class="content_list_card">
-                    <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/rcmd_itm.png?t=1635751337">
-                    <div class="content_list_card_font">직장인 대환영! 비지니스 현업</div>
-                    <div class="content_list_card_font">에 바로 써먹을 수 있는 머신...</div>
-                    <div class="content_list_card_price"><b style="color:#e9328e">22%</b> 월 65,000원 (6개월 할부) </div>
-                </div>
-            </div>
-            <div id="dev" class="content_list hide">
-                <div class="content_list_card">
-                    <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/spring_bgn.png?t=1635751337">
-                    <div class="content_list_card_font">백엔드 개발의 대표 프레임워</div>
-                    <div class="content_list_card_font">크, Spring으로 웹서비스를...</div>
-                    <div class="content_list_card_price"><b style="color:#e9328e">18%</b> 월 68,333원 (6개월 할부) </div>
-                </div>
-                <div class="content_list_card">
-                    <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/node_bgn.png?t=1644544473">
-                    <div class="content_list_card_font">가장 쉽고 빠르게 서버를 구축</div>
-                    <div class="content_list_card_font">하는 방법! 노드와 express...</div>
-                    <div class="content_list_card_price"><b style="color:#e9328e">22%</b> 월 65,000원 (6개월 할부) </div>
-                </div>
-                <div class="content_list_card">
-                    <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/react_bgn.png?t=1635751337">
-                    <div class="content_list_card_font">요즘 대세인 리액트 기초 지식</div>
-                    <div class="content_list_card_font">을 빠르게 배워 포트폴리오를...</div>
-                    <div class="content_list_card_price"><b style="color:#e9328e">18%</b> 월 68,333원 (6개월 할부) </div>
-                </div>
-                <div class="content_list_card">
-                    <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/algo_bgn.png?t=1635751337">
-                    <div class="content_list_card_font">코테 합격 기원! 자료구조의 기</div>
-                    <div class="content_list_card_font">초부터 좋은 코드 작성법까지...</div>
-                    <div class="content_list_card_price"><b style="color:#e9328e">18%</b> 월 68,333원 (6개월 할부) </div>
-                </div>
-            </div>
-        </div>
-        <div class="badge_list">
-            <a href="#none" class="badge_icon_list">
-                <img class="badge_icon_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-python.png?t=1636027643"> 
-                <img class="badge_icon_img" src='https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-python-hover.png?t=1636027643'>
-                
-                <div class="badge_icon_name nom-font">파이썬</div>
-            <a href="#none" class="badge_icon_list">
-                <img class="badge_icon_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-web.png?t=1636027643">
-                <img class="badge_icon_img" src='https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-web-hover.png?t=1636027643'>
-                <div class="badge_icon_name nom-font">웹개발</div>
-            <a href="#none" class="badge_icon_list">
-                <img class="badge_icon_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-app.png?t=1636027643">
-                <img class="badge_icon_img" src='https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-app-hover.png?t=1636027643'>
-                <div class="badge_icon_name nom-font">앱개발</div>
-            <a href="#none" class="badge_icon_list">
-                <img class="badge_icon_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-datascience.png?t=1636027643">
-                <img class="badge_icon_img" src='https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-datascience-hover.png?t=1636027643'>
-                <div class="badge_icon_name nom-font">데이터분석</div>
-            <a href="#none" class="badge_icon_list">
-                <img class="badge_icon_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-grammar.png?t=1636027643">
-                <img class="badge_icon_img" src='https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-grammar-hover.png?t=1636027643'>
-                <div class="badge_icon_name nom-font">코딩언어</div>
-            <a href="#none" class="badge_icon_list">
-                <img class="badge_icon_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-pkg.png?t=1636027643">
-                <img class="badge_icon_img" src='https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-pkg-hover.png?t=1636027643'>
-                <div class="badge_icon_name nom-font">패키지</div>
-        </div>
-        <a href="#none" class="cta nom-font">전체 수업 보러가기 👉</a>
-        <div class="component_box">
-            <img src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/counsel.png?t=1636027643" class="component_size">
-            <div class="component_size component_text_box">
-                <h1 class="content_fst_text nom-font" style="font-size:35px; font-weight:1100;">아직 어디서부터 어떻게<br> 시작해야할지 잘 모르겠다면?</h1>
-                <span class="content_sec_text nom-font">코딩 전문 학습 매니저에게 무엇이든 물어보세요!<br>당신께 딱 맞는 코딩 수업을 찾아드릴게요.</span>
-                <p class="contetn_thr_text nom-font">상담 받고, 1만원 할인도 받으세요!</p>
-                <button class="component_button nom-font">상담 신청하기 <i class="fa-solid fa-arrow-right-long"></i></button>
-            </div>
-        </div>
-        <div class="accumulator_box">
-            <div class="accum_text_box nom-font">
-                <h3 >누적 수강생 수</h3>
-                <span>207,754명</span>
-            </div>
-            <div class="accum_text_box nom-font">
-                <h3>수업 만족도</h3>
-                <span>97.8%</span>
-            </div>
-            <div class="accum_text_box nom-font">
-                <h3>온라인 완주율</h3>
-                <span>85.5%</span>
-            </div>
-        </div>
-        <div class="why_sparta_content_top nom-font">
-            <div class="why_sparta_gradation"></div>
-            <div class="why_sparta_text_box">
-            <h1>스파르타코딩클럽에서<br>시작해야 하는 이유</h1>
-            <span>스파르타에서는 잘 배울 수 밖에 없습니다.</span>
-            </div>
-        </div>
-        <div class="why_sparta_box nom-font">
-            <div class="why_sparta_content_box">
-                <div class="why_sparta_proc_dec">
-                    <h2>하나. 비전공자를 위한 커리큘럼</h2>
-                    <div class="why_sparta_proc_divider"></div>
-                    <span>스파르타는 수학공식을 외우듯이
-                        <br>
-                        암기하는 것이 코딩이라 생각하지 않습니다.
-                        <br>
-                        내 손으로 직접 눈에 보이는 결과물을 만들어야
-                        <br>
-                        비전공자가 가장 빠르게 성장할 수 있습니다.
-                    </span>
-                   <div class="cta">
-                        <a href="#none">강의 제작과정 미리보기 <i class="fa-solid fa-arrow-right-long"></i></a>
-                    </div>
-                </div>
-                <div class="why_spartaa_proc_img_box">
-                    <img class="why_spartaa_proc_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/comp/half/maker_main/strength_curri.png?t=1636027656">
-                </div>
-            </div>
-            <div class="why_sparta_content_box">
-                <div class="why_spartaa_proc_img_box">
-                    <img class="why_spartaa_proc_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/comp/half/maker_main/strength_qna.png?t=1636027656">
-                </div>
-                <div class="why_sparta_proc_dec">
-                    <h2>둘. 튜터와의 즉문즉답</h2>
-                    <div class="why_sparta_proc_divider"></div>
-                    <span>스파르타의 튜터는 단순히 '강사'가 아닙니다.
-                        <br>
-                        끊임없이 뜨는 에러의 이유를 찾고,
-                        <br>
-                        코드가 돌아가는 원리를 짚어주는 '멘토'.
-                        <br>
-                        멘토에게 무엇이든 물어보세요.
-                        <br>
-                        즉문즉답 시간, 3분 이내에 답변해드립니다.
-                    </span>
-                   <div class="cta">
-                        <a href="#none">즉문즉답 후기 보기 <i class="fa-solid fa-arrow-right-long"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="why_sparta_content_box">
-                <div class="why_sparta_proc_dec">
-                    <h2>셋. 완주를 돕는 수강환경</h2>
-                    <div class="why_sparta_proc_divider"></div>
-                    <span>혼자 코딩하는 기분에 막막하셨나요?
-                        <br>
-                        스파르타에서 동료들과 완주를 향해 달려나가세요.
-                        <br>
-                        누구나 끝까지 완강할 수 있게 설계된 수강환경.
-                        <br>
-                        여기서 코딩을 포기한다는 일은 남의 이야기입니다.
-                    </span>
-                   <div class="cta">
-                        <a href="#none">수강환경 미리보기 <i class="fa-solid fa-arrow-right-long"></i></a>
-                    </div>
-                </div>
-                <div class="why_spartaa_proc_img_box">
-                    <img class="why_spartaa_proc_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/comp/half/maker_main/strength_playground.png?t=1636027656">
-                </div>
-            </div>
-            <div class="why_sparta_content_box">
-                <div class="why_spartaa_proc_img_box">
-                    <img class="why_spartaa_proc_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/comp/half/maker_main/strength_managing.png?t=1636027656">
-                </div>
-                <div class="why_sparta_proc_dec">
-                    <h2>넷. 학습 매니저의 찐한 관리</h2>
-                    <div class="why_sparta_proc_divider"></div>
-                    <span>코딩하다 가끔 지치는 순간은 누구에게나 오죠.
-                        <br>
-                        그럴ㄷ 때마다, 학습 매니저가 당신의 열정이
-                        <br>
-                        코드가 돌아가는 원리를 짚어주는 '멘토'.
-                        <br>
-                        멘토에게 무엇이든 물어보세요.
-                        <br>
-                        즉문즉답 시간, 3분 이내에 답변해드립니다.
-                    </span>
-                   <div class="cta">
-                        <a href="#none">찐한관리 미리보기 <i class="fa-solid fa-arrow-right-long"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="sparta_review_container nom-font">
-            <div class="sparta_review_text_box">
-                <h1>스파르타에서 큰일낸 사람들</h1>
-                <span>본격 커리어 전환부터 내 아이디어로 창업까지</span>
-            </div>
-            <div class="sparta_review_box_container">
-                <div onclick="Modalshow(this.id)" class="sparta_review_box open_button" id="review_1">
-                    <div class="sparta_review_thumnail" style="background-image:url('https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/interview_thumb_고미송.png')"><div class="thumnail_playbtn"><i class="fa-solid play_toggle fa-play thumnail_play"></i></div>
-                    </div>
-                    <div class="sparta_review_text_box">
-                        <span class="sparta_review_deco">핵클(Hackle)에 취업한 <span style="font-weight:bold; color:black">고미송 님</span></span>
-                        <p class="sparta_review_comment">"공기업을 평생 직장이라고  생각했던 제가 개
-                            <br>
-                            발자를 꿈꾸게 됐어요!"
-                        </p>
-                    </div>
-                </div>
-                <div onclick="Modalshow(this.id)" class="sparta_review_box open_button" id="review_2">
-                    <div class="sparta_review_thumnail" style="background-image:url('https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/interview_thumb_최상언.png')"><div class="thumnail_playbtn"><i class="fa-solid play_toggle fa-play thumnail_play"></i></div>
-                    </div>
-                    <div class="sparta_review_text_box">
-                        <span class="sparta_review_deco">팀스파르타에 취업한  <span style="font-weight:bold; color:black">최상언 님</span></span>
-                        <p class="sparta_review_comment">"비전공자였던 제가 코딩을 배워 스파르타에
-                            <br>
-                            서 개발을 하고 있어요!"
-                        </p>
-                    </div>
-                </div>
-                <div onclick="Modalshow(this.id)" class="sparta_review_box open_button" id="review_3">
-                    <div class="sparta_review_thumnail" style="background-image:url('https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/interview_thumb_박현솔.png')"><div class="thumnail_playbtn"><i class="fa-solid play_toggle fa-play thumnail_play"></i></div>
-                    </div>
-                    <div class="sparta_review_text_box">
-                        <span class="sparta_review_deco">Disquiet를 창업한  <span style="font-weight:bold; color:black">박현솔 님</span></span>
-                        <p class="sparta_review_comment">"수업을 듣고 만든 사이트를 본격적으로 사업
-                            <br>
-                            화시키고 있어요!"
-                        </p>
-                    </div>
-                </div>
-                <dialog class="modal close_button" id="modal">
-                    <form class="form" method="dialog">
-                      <div class="modal_container">
-                      <iframe id="iframe" width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                      </div>
-                    </form>
-                </dialog>
+                </container>
                 
             </div>
-            <div class="sparta_review_link">
-                <a href="#none">후기 더 보기 <i class="fa-solid fa-arrow-right-long"></i></a>
+            <div class="sec-slide slide_page">
+                <container class="text-box nom-font">
+                    <span class="fst-text">1기 조기 마감, 2기를 모집합니다.</span>
+                    <p class="sec-text">직장인 창업 부트캠프 {창}</p>
+                    <span class="thr-text">평일에는 직장인, 주말엔 창업가로 제 2의 삶에 도전하세요.<br>VOD 형태로 압축한 {창} Lite도 함께 론칭했습니다.
+                    </span><br>
+                    <button class="slide_button nom-font" style="background:#0e17ae;">지원하러 가기<i class="fa-solid fa-arrow-right-long"></i></button>
+                    <div class="slide_controller">
+                        <div class="ctl_area ctl_area_cnt">2/4</div>
+                        <div class="ctl_area ctl_area_arrow">
+                                <div class="slide-prev"><i class="fa-solid fa-angle-left left"></i></div>
+                                <div class="slide-next"><i class="fa-solid fa-angle-right right"></i></div>
+                        </div>
+                        <div class="ctl_area ctl_area_play auto_play">
+                            <i class="fa-solid play_toggle fa-play"></i>
+                        </div>
+                    </div>
+                </container>
             </div>
-        </div>
-        <div class="sparta_free_class_box nom-font">
-            <div class="sparta_free_class_text_box">
-                <span>처음이라 아직 고민된다면?</span>
-                <h1>1시간만에 끝내는 무료 강의부터!</h1>
-                <div class="sparta_free_class_btn_small hide">지금 바로 신청하기&nbsp;&nbsp;<i class="fa-solid fa-arrow-right-long"></i></div>
+            <div class="thr-slide slide_page">
+                <container class="text-box nom-font">
+                    <span class="fst-text">100명 모집 시 조기마감</span>
+                    <p class="sec-text">내일배움캠프 2기 모집중!</p>
+                    <span class="thr-text">1800만원 상당의 개발자 취업 코스를 전액 무료로.<br>4개월 후 현업에서 환영받는 개발자로 취업하세요.
+                    </span><br>
+                    <button class="slide_button nom-font">지원하러 가기<i class="fa-solid fa-arrow-right-long"></i></button>
+                    <div class="slide_controller">
+                        <div class="ctl_area ctl_area_cnt">3/4</div>
+                        <div class="ctl_area ctl_area_arrow">
+                                <div class="slide-prev"><i class="fa-solid fa-angle-left left"></i></div>
+                                <div class="slide-next"><i class="fa-solid fa-angle-right right"></i></div>
+                        </div>
+                        <div class="ctl_area ctl_area_play auto_play">
+                            <i class="fa-solid play_toggle fa-play"></i>
+                        </div>
+                    </div>
+                </container>
             </div>
-            <img class="sparta_free_class_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/banner-rtan.png?t=1636027643">
-            </img>
-            <div class="sparta_free_class_btn">지금 바로 신청하기&nbsp;&nbsp;<i class="fa-solid fa-arrow-right-long"></i></div>
-        </div>
-        <div class="sparta_bootcamp_box">
-            <div class="sparta_bootcamp_text_box nom-font">
-                <h1 class="content_fst_text" style="margin-bottom: 5px;">더 많은 스파르타 교육과정</h1>
-                <span class="content_sec_text" style="font-size: 17px;">마침 내게 필요한 수업을 스파르타가 딱-!</span>
+            <div class="for-slide slide_page">
+                <container class="text-box nom-font">
+                    <span class="fst-text">나만 몰라서 답답했던 코딩용어, 1시간만에!</span>
+                    <p class="sec-text">무료로 듣는 필수 코딩용어 해설</p>
+                    <span class="thr-text">출퇴근 길에도 핵심만 빠르게!<br>언제 어디서나 가볍게 들을 수 있어요.
+                    </span><br>
+                    <button class="slide_button nom-font">지원하러 가기<i class="fa-solid fa-arrow-right-long"></i></button>
+                    <div class="slide_controller">
+                        <div class="ctl_area ctl_area_cnt">4/4</div>
+                        <div class="ctl_area ctl_area_arrow">
+                                <div class="slide-prev"><i class="fa-solid fa-angle-left left"></i></div>
+                                <div class="slide-next"><i class="fa-solid fa-angle-right right"></i></div>
+                        </div>
+                        <div class="ctl_area ctl_area_play auto_play">
+                            <i class="fa-solid play_toggle fa-play"></i>
+                        </div>
+                    </div>
+                </container>
             </div>
-            <div class="sparta_bootcamp_content_box">
-                <a href="#none"><img class="sparta_bootcamp_content" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/comp/half/maker_main/banner_nb_desktop.png?t=1636027656"></a>
-                <a href="#none"><img class="sparta_bootcamp_content" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/comp/half/maker_main/banner_hanghae_desktop.png?t=1636027656"></a>
             </div>
+        <container class="contents_box">
+            <div class="content_fst_text nom-font">내 목적에 딱! 맞는 코딩수업</div>
+            <div class="content_sec_text nom-font">왕초보를 위한 가장 기초부터 개발자 취업을 위한 심화내용까지</div>
+            <div class="content_switch_box">
+                <button class="content_button_shape chobo btn_active">왕초보 탈출
+                </button>
+                <button class="content_button_shape data">데이터분석가</button>
+                <button class="content_button_shape dev">개발자 취업</button>
+            </div>
+            <div  class="content_list_box">
+                <div id="chobo" class="content_list active">
+                    <div class="content_list_card">
+                        <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/web.png?t=1643863790">
+                        <div class="content_list_card_font">웹개발의 A부터 Z까지! 누구나</div>
+                        <div class="content_list_card_font">쉽고 재밌게 코딩에 입문할... </div>
+                        <div class="content_list_card_price"><b style="color:#e9328e">56%</b> 월 71,666원 (6개월 할부) </div>
+                    </div>
+                    <div class="content_list_card">
+                        <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/app_bgn.png?t=1643863790">
+                        <div class="content_list_card_font">앱개발은 이걸로 끝! iOS와 안</div>
+                        <div class="content_list_card_font">드로이드 앱을 한번에 만들...</div>
+                        <div class="content_list_card_price"><b style="color:#e9328e">56%</b> 월 71,666원 (6개월 할부) </div>
+                    </div>
+                    <div class="content_list_card">
+                        <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/game_bgn.png?t=1643863790">
+                        <div class="content_list_card_font">웹개발의 A부터 Z까지! 누구나</div>
+                        <div class="content_list_card_font">쉽고 재밌게 코딩에 입문할... </div>
+                        <div class="content_list_card_price"><b style="color:#e9328e">56%</b> 월 71,666원 (6개월 할부) </div>
+                    </div>
+                    <div class="content_list_card">
+                        <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/sql_bgn.png?t=1644410720">
+                        <div class="content_list_card_font">웹개발의 A부터 Z까지! 누구나</div>
+                        <div class="content_list_card_font">쉽고 재밌게 코딩에 입문할... </div>
+                        <div class="content_list_card_price"><b style="color:#e9328e">17%</b> 월 68,833원 (6개월 할부) </div>
+                    </div>
+                    <span class="icon_pop"></span>
+                </div>
+                <div id="data" class="content_list hide">
+                    <div class="content_list_card">
+                        <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/data_bgn.png?t=1635751337">
+                        <div class="content_list_card_font">현업에서 쓰이는 데이터 분석 &</div>
+                        <div class="content_list_card_font">인사이트 추출 방법을 핵심만</div>
+                        <div class="content_list_card_price"><b style="color:#e9328e">18%</b> 월 68,333원 (6개월 할부) </div>
+                    </div>
+                    <div class="content_list_card">
+                        <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/ml_bgn.png?t=1635751337">
+                        <div class="content_list_card_font">수학 부담기는 쫙 빼고! 머신러</div>
+                        <div class="content_list_card_font">닝의 핵심 내용을 듬뿍 담은...</div>
+                        <div class="content_list_card_price"><b style="color:#e9328e">22%</b> 월 65,000원 (6개월 할부) </div>
+                    </div>
+                    <div class="content_list_card">
+                        <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/sql_bgn.png?t=1644410720">
+                        <div class="content_list_card_font">이력서에 'SQL 능숙'이라고 당</div>
+                        <div class="content_list_card_font">당하게! 자유자재로 데이터...</div>
+                        <div class="content_list_card_price"><b style="color:#e9328e">17%</b> 월 68,833원 (6개월 할부) </div>
+                    </div>
+                    <div class="content_list_card">
+                        <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/rcmd_itm.png?t=1635751337">
+                        <div class="content_list_card_font">직장인 대환영! 비지니스 현업</div>
+                        <div class="content_list_card_font">에 바로 써먹을 수 있는 머신...</div>
+                        <div class="content_list_card_price"><b style="color:#e9328e">22%</b> 월 65,000원 (6개월 할부) </div>
+                    </div>
+                </div>
+                <div id="dev" class="content_list hide">
+                    <div class="content_list_card">
+                        <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/spring_bgn.png?t=1635751337">
+                        <div class="content_list_card_font">백엔드 개발의 대표 프레임워</div>
+                        <div class="content_list_card_font">크, Spring으로 웹서비스를...</div>
+                        <div class="content_list_card_price"><b style="color:#e9328e">18%</b> 월 68,333원 (6개월 할부) </div>
+                    </div>
+                    <div class="content_list_card">
+                        <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/node_bgn.png?t=1644544473">
+                        <div class="content_list_card_font">가장 쉽고 빠르게 서버를 구축</div>
+                        <div class="content_list_card_font">하는 방법! 노드와 express...</div>
+                        <div class="content_list_card_price"><b style="color:#e9328e">22%</b> 월 65,000원 (6개월 할부) </div>
+                    </div>
+                    <div class="content_list_card">
+                        <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/react_bgn.png?t=1635751337">
+                        <div class="content_list_card_font">요즘 대세인 리액트 기초 지식</div>
+                        <div class="content_list_card_font">을 빠르게 배워 포트폴리오를...</div>
+                        <div class="content_list_card_price"><b style="color:#e9328e">18%</b> 월 68,333원 (6개월 할부) </div>
+                    </div>
+                    <div class="content_list_card">
+                        <img src="https://static.spartacodingclub.kr/350e42913d9a/static/v5/images/comp/w/catalog/courses/algo_bgn.png?t=1635751337">
+                        <div class="content_list_card_font">코테 합격 기원! 자료구조의 기</div>
+                        <div class="content_list_card_font">초부터 좋은 코드 작성법까지...</div>
+                        <div class="content_list_card_price"><b style="color:#e9328e">18%</b> 월 68,333원 (6개월 할부) </div>
+                    </div>
+                </div>
+            </div>
+            <div class="badge_list">
+                <a href="#none" class="badge_icon_list">
+                    <img class="badge_icon_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-python.png?t=1636027643"> 
+                    <img class="badge_icon_img" src='https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-python-hover.png?t=1636027643'>
+                    
+                    <div class="badge_icon_name nom-font">파이썬</div>
+                <a href="#none" class="badge_icon_list">
+                    <img class="badge_icon_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-web.png?t=1636027643">
+                    <img class="badge_icon_img" src='https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-web-hover.png?t=1636027643'>
+                    <div class="badge_icon_name nom-font">웹개발</div>
+                <a href="#none" class="badge_icon_list">
+                    <img class="badge_icon_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-app.png?t=1636027643">
+                    <img class="badge_icon_img" src='https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-app-hover.png?t=1636027643'>
+                    <div class="badge_icon_name nom-font">앱개발</div>
+                <a href="#none" class="badge_icon_list">
+                    <img class="badge_icon_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-datascience.png?t=1636027643">
+                    <img class="badge_icon_img" src='https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-datascience-hover.png?t=1636027643'>
+                    <div class="badge_icon_name nom-font">데이터분석</div>
+                <a href="#none" class="badge_icon_list">
+                    <img class="badge_icon_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-grammar.png?t=1636027643">
+                    <img class="badge_icon_img" src='https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-grammar-hover.png?t=1636027643'>
+                    <div class="badge_icon_name nom-font">코딩언어</div>
+                <a href="#none" class="badge_icon_list">
+                    <img class="badge_icon_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-pkg.png?t=1636027643">
+                    <img class="badge_icon_img" src='https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/icon-pkg-hover.png?t=1636027643'>
+                    <div class="badge_icon_name nom-font">패키지</div>
+            </div>
+            <a href="#none" class="cta nom-font">전체 수업 보러가기 👉</a>
+            <div class="component_box">
+                <img src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/counsel.png?t=1636027643" class="component_size">
+                <div class="component_size component_text_box">
+                    <h1 class="content_fst_text nom-font" style="font-size:35px; font-weight:1100;">아직 어디서부터 어떻게<br> 시작해야할지 잘 모르겠다면?</h1>
+                    <span class="content_sec_text nom-font">코딩 전문 학습 매니저에게 무엇이든 물어보세요!<br>당신께 딱 맞는 코딩 수업을 찾아드릴게요.</span>
+                    <p class="contetn_thr_text nom-font">상담 받고, 1만원 할인도 받으세요!</p>
+                    <button class="component_button nom-font">상담 신청하기 <i class="fa-solid fa-arrow-right-long"></i></button>
+                </div>
+            </div>
+            <div class="accumulator_box">
+                <div class="accum_text_box nom-font">
+                    <h3 >누적 수강생 수</h3>
+                    <span>207,754명</span>
+                </div>
+                <div class="accum_text_box nom-font">
+                    <h3>수업 만족도</h3>
+                    <span>97.8%</span>
+                </div>
+                <div class="accum_text_box nom-font">
+                    <h3>온라인 완주율</h3>
+                    <span>85.5%</span>
+                </div>
+            </div>
+            <div class="why_sparta_content_top nom-font">
+                <div class="why_sparta_gradation"></div>
+                <div class="why_sparta_text_box">
+                <h1>스파르타코딩클럽에서<br>시작해야 하는 이유</h1>
+                <span>스파르타에서는 잘 배울 수 밖에 없습니다.</span>
+                </div>
+                </div>
+            <div class="why_sparta_box nom-font">
+                <div class="why_sparta_content_box">
+                    <div class="why_sparta_proc_dec">
+                        <h2>하나. 비전공자를 위한 커리큘럼</h2>
+                        <div class="why_sparta_proc_divider"></div>
+                        <span>스파르타는 수학공식을 외우듯이
+                            <br>
+                            암기하는 것이 코딩이라 생각하지 않습니다.
+                            <br>
+                            내 손으로 직접 눈에 보이는 결과물을 만들어야
+                            <br>
+                            비전공자가 가장 빠르게 성장할 수 있습니다.
+                        </span>
+                       <div class="cta">
+                            <a href="#none">강의 제작과정 미리보기 <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <div class="why_spartaa_proc_img_box">
+                        <img class="why_spartaa_proc_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/comp/half/maker_main/strength_curri.png?t=1636027656">
+                    </div>
+                </div>
+                <div class="why_sparta_content_box">
+                    <div class="why_spartaa_proc_img_box">
+                        <img class="why_spartaa_proc_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/comp/half/maker_main/strength_qna.png?t=1636027656">
+                    </div>
+                    <div class="why_sparta_proc_dec">
+                        <h2>둘. 튜터와의 즉문즉답</h2>
+                        <div class="why_sparta_proc_divider"></div>
+                        <span>스파르타의 튜터는 단순히 '강사'가 아닙니다.
+                            <br>
+                            끊임없이 뜨는 에러의 이유를 찾고,
+                            <br>
+                            코드가 돌아가는 원리를 짚어주는 '멘토'.
+                            <br>
+                            멘토에게 무엇이든 물어보세요.
+                            <br>
+                            즉문즉답 시간, 3분 이내에 답변해드립니다.
+                        </span>
+                       <div class="cta">
+                            <a href="#none">즉문즉답 후기 보기 <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="why_sparta_content_box">
+                    <div class="why_sparta_proc_dec">
+                        <h2>셋. 완주를 돕는 수강환경</h2>
+                        <div class="why_sparta_proc_divider"></div>
+                        <span>혼자 코딩하는 기분에 막막하셨나요?
+                            <br>
+                            스파르타에서 동료들과 완주를 향해 달려나가세요.
+                            <br>
+                            누구나 끝까지 완강할 수 있게 설계된 수강환경.
+                            <br>
+                            여기서 코딩을 포기한다는 일은 남의 이야기입니다.
+                        </span>
+                       <div class="cta">
+                            <a href="#none">수강환경 미리보기 <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                    <div class="why_spartaa_proc_img_box">
+                        <img class="why_spartaa_proc_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/comp/half/maker_main/strength_playground.png?t=1636027656">
+                    </div>
+                </div>
+                <div class="why_sparta_content_box">
+                    <div class="why_spartaa_proc_img_box">
+                        <img class="why_spartaa_proc_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/comp/half/maker_main/strength_managing.png?t=1636027656">
+                    </div>
+                    <div class="why_sparta_proc_dec">
+                        <h2>넷. 학습 매니저의 찐한 관리</h2>
+                        <div class="why_sparta_proc_divider"></div>
+                        <span>코딩하다 가끔 지치는 순간은 누구에게나 오죠.
+                            <br>
+                            그럴ㄷ 때마다, 학습 매니저가 당신의 열정이
+                            <br>
+                            코드가 돌아가는 원리를 짚어주는 '멘토'.
+                            <br>
+                            멘토에게 무엇이든 물어보세요.
+                            <br>
+                            즉문즉답 시간, 3분 이내에 답변해드립니다.
+                        </span>
+                       <div class="cta">
+                            <a href="#none">찐한관리 미리보기 <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            <div class="sparta_review_container nom-font">
+                <div class="sparta_review_text_box">
+                    <h1>스파르타에서 큰일낸 사람들</h1>
+                    <span>본격 커리어 전환부터 내 아이디어로 창업까지</span>
+                </div>
+                <div class="sparta_review_box_container">
+                    <div onclick="Modalshow(this.id)" class="sparta_review_box open_button" id="review_1">
+                        <div class="sparta_review_thumnail" style="background-image:url('https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/interview_thumb_고미송.png')"><div class="thumnail_playbtn"><i class="fa-solid play_toggle fa-play thumnail_play"></i></div>
+                        </div>
+                        <div class="sparta_review_text_box">
+                            <span class="sparta_review_deco">핵클(Hackle)에 취업한 <span style="font-weight:bold; color:black">고미송 님</span></span>
+                            <p class="sparta_review_comment">"공기업을 평생 직장이라고  생각했던 제가 개
+                                <br>
+                                발자를 꿈꾸게 됐어요!"
+                            </p>
+                        </div>
+                    </div>
+                    <div onclick="Modalshow(this.id)" class="sparta_review_box open_button" id="review_2">
+                        <div class="sparta_review_thumnail" style="background-image:url('https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/interview_thumb_최상언.png')"><div class="thumnail_playbtn"><i class="fa-solid play_toggle fa-play thumnail_play"></i></div>
+                        </div>
+                        <div class="sparta_review_text_box">
+                            <span class="sparta_review_deco">팀스파르타에 취업한  <span style="font-weight:bold; color:black">최상언 님</span></span>
+                            <p class="sparta_review_comment">"비전공자였던 제가 코딩을 배워 스파르타에
+                                <br>
+                                서 개발을 하고 있어요!"
+                            </p>
+                        </div>
+                    </div>
+                    <div onclick="Modalshow(this.id)" class="sparta_review_box open_button" id="review_3">
+                        <div class="sparta_review_thumnail" style="background-image:url('https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/interview_thumb_박현솔.png')"><div class="thumnail_playbtn"><i class="fa-solid play_toggle fa-play thumnail_play"></i></div>
+                        </div>
+                        <div class="sparta_review_text_box">
+                            <span class="sparta_review_deco">Disquiet를 창업한  <span style="font-weight:bold; color:black">박현솔 님</span></span>
+                            <p class="sparta_review_comment">"수업을 듣고 만든 사이트를 본격적으로 사업
+                                <br>
+                                화시키고 있어요!"
+                            </p>
+                        </div>
+                    </div>
+                    <dialog class="modal close_button" id="modal">
+                        <form class="form" method="dialog">
+                          <div class="modal_container">
+                          <iframe id="iframe" width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                        </form>
+                    </dialog>
+                    
+                </div>
+                <div class="sparta_review_link">
+                    <a href="#none">후기 더 보기 <i class="fa-solid fa-arrow-right-long"></i></a>
+                </div>
+            </div>
+            <div class="sparta_free_class_box nom-font">
+                <div class="sparta_free_class_text_box">
+                    <span>처음이라 아직 고민된다면?</span>
+                    <h1>1시간만에 끝내는 무료 강의부터!</h1>
+                    <div class="sparta_free_class_btn_small hide">지금 바로 신청하기&nbsp;&nbsp;<i class="fa-solid fa-arrow-right-long"></i></div>
+                </div>
+                <img class="sparta_free_class_img" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/maker_main/banner-rtan.png?t=1636027643">
+                </img>
+                <div class="sparta_free_class_btn">지금 바로 신청하기&nbsp;&nbsp;<i class="fa-solid fa-arrow-right-long"></i></div>
+            </div>
+            <div class="sparta_bootcamp_box">
+                <div class="sparta_bootcamp_text_box nom-font">
+                    <h1 class="content_fst_text" style="margin-bottom: 5px;">더 많은 스파르타 교육과정</h1>
+                    <span class="content_sec_text" style="font-size: 17px;">마침 내게 필요한 수업을 스파르타가 딱-!</span>
+                </div>
+                <div class="sparta_bootcamp_content_box">
+                    <a href="#none"><img class="sparta_bootcamp_content" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/comp/half/maker_main/banner_nb_desktop.png?t=1636027656"></a>
+                    <a href="#none"><img class="sparta_bootcamp_content" src="https://static.spartacodingclub.kr/043a96e34c19/static/v5/images/comp/half/maker_main/banner_hanghae_desktop.png?t=1636027656"></a>
+                </div>                
+            </div>
+            <div class="footer nom-font">
+                <div class="footer_inbox">
+                    <div class="footer_header">
+                        <div class="footer_header_text">
+                            <div><a onClick="window.location.reload()" href="https://spartacodingclub.kr/">홈</a></div>
+                            <div><a href="#none">{창}</a></div>
+                            <div><a href="#none">항해99</a></div>
+                            <div><a href="#none">국비지원교육</a></div>
+                            <div><a href="#none">기업교육</a></div>
+                        </div>
+                        <div class="footer_header_icon">
+                            <a target="_blank" href="https://m.blog.naver.com/PostList.nhn?blogId=spartacoding&categoryNo=6&logCode=0&categoryName=%EC%88%98%EA%B0%95%EC%83%9D%C2%A0%EC%86%94%EC%A7%81%ED%9B%84%EA%B8%B0" class="ic_nv">naver</a>
+                            <a target="_blank" href="https://spartacodingclub.tistory.com/" class="ic_ts">tstory</a>
+                            <a target="_blank" href="https://www.instagram.com/spartacodingclub" class="ic_is">insta</a>
+                            <a target="_blank" href="https://www.youtube.com/channel/UC2Fh3XoQYNYTba-cigq5cAA" class="ic_yt">youtube</a>
+                        </div>
+                    </div>
+                    <hr class="line">
+                    <div class="footer_service_box">
+                        <a href="#none" class="">튜터 지원</a>
+                        <a href="#none" class="">채용 안내</a>
+                        <a href="#none" class="">SW사관학교 정글</a>
+                        <a href="#none" class="">개인정보처리방침</a>
+                        <a href="#none" class="">환불 규정</a>
+                        <a href="#none" class="">고객 문의</a>
+                    </div>
+                    <div class="footer_info">
+                        <h4>팀스파르타(주) 사업자 정보</h4>
+                    </div>
+                    <div class="footer_detail_box">
+                        <div class="footer_division">
+                            <div class="footer_detail">
+                                <dt>대표자 :</dt>
+                                <dd>&nbsp;이범규</dd>
+                                <dv>&nbsp;&nbsp;|&nbsp;&nbsp;</dv>
+                            </div>
+                            <div class="footer_detail">
+                                <dt>사업자 등록번호 :</dt>
+                                <dd>&nbsp;783-86-01715</dd>
+                                <dv>&nbsp;&nbsp;|&nbsp;&nbsp;</dv>
+                            </div>
+                            <div class="footer_detail">
+                                <dt>통신판매업 신고번호 :</dt>
+                                <dd>&nbsp;2020-서울강남-02300</dd>
+                                <dv>&nbsp;&nbsp;|&nbsp;&nbsp;</dv>
+                            </div>
+                            <div class="footer_detail">
+                                <dt>평생교육시설 신고번호 :</dt>
+                                <dd>&nbsp;제 661호</dd>
+                            </div>
+                        </div>
+                        <div class="footer_division">
+                            <div class="footer_detail">
+                                <dt>주소 :</dt>
+                                <dd>&nbsp;서울특별시 강남구 논현로 425, 501호</dd>
+                                <dv>&nbsp;&nbsp;|&nbsp;&nbsp;</dv>
+                            </div>
+                            <div class="footer_detail">
+                                <dt>이메일 :</dt>
+                                <dd>&nbsp;contact@teamsparta.co</dd>
+                                <dv>&nbsp;&nbsp;|&nbsp;&nbsp;</dv>
+                            </div>
+                            <div class="footer_detail">
+                                <dt>전화 :</dt>
+                                <dd>&nbsp;1522-8016</dd>
+                                <dv>&nbsp;&nbsp;|&nbsp;&nbsp;</dv>
+                            </div>
+                            <div class="footer_detail">
+                                <dt>빠른상담 :</dt>
+                                <dd>&nbsp;홈페이지 채팅상담버튼(우측하단)</dd>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_copyright">Copyright ©2021 TEAMSPARTA. All rights reserved.
+                    </div>
+                </div>
+            </div>
+        
+            </container>
+        <div class="chat_rtan_container">
+            <img id="chat_rtan" class="chat_rtan_active chat_rtan" src ="/logo/chat_rtan.png">
+            </div>
+        <div class="widget_window_container nom-font">
+            <div class="widget_window">
+                    <div class="widget_top_container">
+                        <div class="widget_top_left">
+                            <img class="widget_thumbnail" src="https://cf.channel.io/thumb/200x200/pub-file/18016/6246dbd3b82d3eee2ee0/_.png">
+                            <h4>스파르타코딩클럽</h4>
+                        </div>
+                        <div class="widget_top_right" style="color:#ce4357;">
+                            <div class="widget_cog"><i class="fa-solid fa-gear fa-lg"></i></div>
+                            <div class="widget_close"><i class="fa-solid fa-xmark fa-lg"></i></div>
+                        </div>
+                    </div>
            
-
-            
-        </div>
+                
+                <div class="widget_whoweare">
+                    <span class="grayout widget_whoweare_text">🛡️왕초보 코딩 교육의 명가🛡️<br>
+                        완주까지 함께하는 스파르타코딩클럽⚔️</span>
+                </div>
+                <div class="rtan_chatbox">
+                    <div class="rtan_chatbox_container">
+                        <div class="rtan_chatbox_img">
+                            <img width="36" height="36" src="https://cf.channel.io/thumb/200x200/pub-file/18016/6246d43966cedfe8fdb3/file.png">
+                        </div>
+                        <div class="rtan_chatbox_guide">
+                            <div class="rtan_chatbox_intro">
+                                <span><b>르탄이</b>
+                                    <br>
+                                    반갑습니다💖
+                                    <br>
+                                    저는 스파르타 마스코트 <b>르탄이</b>예요!
+                                </span>
+                            </div>
+                            <div class="rtan_chatbox_schedule">
+                                <span>
+                                    <b>⏰ 운영시간 안내</b>
+                                    <br>
+                                    - 월: 14:00~18:30
+                                    <br>
+                                    - 화~금: 10:30~18:30
+                                    <br>
+                                    - 토,일: 14:00~17:00(기업교육)
+                                    <br>
+                                    - 점심시간 : 12:30~14:00...
+                                </span>
+                            </div> 
+                        </div>
+                    </div>
+                    <a href="#none"class="rta_chatbox_inquiry"><span>🙌
+                        &nbsp;새 문의하기</span></a>
+                        <div class="caution">
     
-    <!-- <footer class="nom-font">
+                        </div>
+                </div>
+            </div>
+            </div>
+    </div>  
+
+
+<!-- <footer class="nom-font">
       <div class="footer_wrap">
           <div class="footer_menu_box">
               <div class="footer_menu_text">
@@ -538,66 +674,6 @@
         </div>
       </div>
     </footer> -->
-</container>
-    <div class="chat_rtan_container">
-        <img id="chat_rtan" class="chat_rtan_active chat_rtan" src ="/logo/chat_rtan.png">
-    </div>
-    <div class="widget_window_container nom-font">
-        <div class="widget_window">
-                <div class="widget_top_container">
-                    <div class="widget_top_left">
-                        <img class="widget_thumbnail" src="https://cf.channel.io/thumb/200x200/pub-file/18016/6246dbd3b82d3eee2ee0/_.png">
-                        <h4>스파르타코딩클럽</h4>
-                    </div>
-                    <div class="widget_top_right" style="color:#ce4357;">
-                        <div class="widget_cog"><i class="fa-solid fa-gear fa-lg"></i></div>
-                        <div class="widget_close"><i class="fa-solid fa-xmark fa-lg"></i></div>
-                    </div>
-                </div>
-       
-            
-            <div class="widget_whoweare">
-                <span class="grayout widget_whoweare_text">🛡️왕초보 코딩 교육의 명가🛡️<br>
-                    완주까지 함께하는 스파르타코딩클럽⚔️</span>
-            </div>
-            <div class="rtan_chatbox">
-                <div class="rtan_chatbox_container">
-                    <div class="rtan_chatbox_img">
-                        <img width="36" height="36" src="https://cf.channel.io/thumb/200x200/pub-file/18016/6246d43966cedfe8fdb3/file.png">
-                    </div>
-                    <div class="rtan_chatbox_guide">
-                        <div class="rtan_chatbox_intro">
-                            <span><b>르탄이</b>
-                                <br>
-                                반갑습니다💖
-                                <br>
-                                저는 스파르타 마스코트 <b>르탄이</b>예요!
-                            </span>
-                        </div>
-                        <div class="rtan_chatbox_schedule">
-                            <span>
-                                <b>⏰ 운영시간 안내</b>
-                                <br>
-                                - 월: 14:00~18:30
-                                <br>
-                                - 화~금: 10:30~18:30
-                                <br>
-                                - 토,일: 14:00~17:00(기업교육)
-                                <br>
-                                - 점심시간 : 12:30~14:00...
-                            </span>
-                        </div> 
-                    </div>
-                </div>
-                <a href="#none"class="rta_chatbox_inquiry"><span>🙌
-                    &nbsp;새 문의하기</span></a>
-                    <div class="caution">
-
-                    </div>
-            </div>
-        </div>
-    </div>
-</div>   
     <!--JavaScript-->
     <script src="js/slideshow.js"></script>
     <script src="js/main.js"></script>		
@@ -605,7 +681,7 @@
     <script src="js/widget.js"></script>
     <script src="js/modal.js"></script>
     <script src="js/freeclass.js"></script>
-</body>
+    </body>
 </html>
 
 

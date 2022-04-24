@@ -1,55 +1,104 @@
-/* 
-.footer_wrap{
-    width: 100%;
-    height: 100%;
-    display:flex;
-    flex-direction: column;
-    justify-content: top;
+.footer{
+    width:100%;
+    height:auto;
+    background-color:#191a1c;
+    color: #c4c5c5;
+    display: flex;
+    justify-content:center;
     align-items: center;
-    text-align: center;
 }
 
-.footer_menu_box{
+.footer_inbox{
     width:90%;
-    height:50px;
-    padding-top: 20px;
-    display: flex;
+    height:auto;
+    padding: 30px 0 30px 0;
+    margin-bottom:0;
+    display:flex;
+    flex-direction: column;
+}
+.footer_header{
+    display:flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
+    margin-bottom:20px;
 }
-
-.footer_menu_text,
-.footer_service_box,
-.footer_dropdown{
+.footer_header_text{
+    width:30%;
     display: flex;
-    width: 1200px;
+    justify-content: space-evenly;
+}
+.footer_header_icon{
+    display: flex;
+    width:20%;
+    justify-content: space-evenly;
+}
+
+.line{
+    width:100%;
+    border: 0.5px solid rgba(160, 160, 160, 0.144);
+}
+
+.footer_service_box{
+    width:50%;
+    display: flex;
+    justify-content:space-evenly;
     font-size: 14px;
+    text-align: left;
+    margin: 20px 0 20px 0 ;
 }
 
-.footer_menu_text > div,
-.footer_menu_icon > a,
-.footer_service_box > a{
-    margin: 0 10px 0 10px;
+.footer_info{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-left:20px;
+    color:white;
+}
+.footer_division{
+    display: flex;
+    justify-content: flex-start;
 }
 
-.footer_menu_text > div > a,
+.footer_detail_box{
+    margin-left:20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_detail{
+    display:flex;
+    justify-self: left;
+    font-size: 12px;
+    color:rgba(219, 219, 219, 0.486);
+    font-weight:400;
+}
+
+.footer_header_text > div > a,
 .footer_service_box > a {
     text-decoration: none;
     color: #c5c5c5;    
 }
-.footer_menu_text > div > a:hover,
-.footer_service_box > a:hover,
-.footer_dropdown:hover{
+
+
+.footer_copyright{
+    width:100%;
+    font-size: 12px;
+    color:rgba(219, 219, 219, 0.486);
+    font-weight:300;
+    display:flex;
+    justify-content: flex-end;
+    padding-top:20px;
+    margin-bottom: 100px;
+}
+
+.footer_header_text > div > a:hover,
+.footer_service_box > a:hover
+{
     color:white;
     font-weight: bolder;
 }
-.footer_menu_icon{
-    width: 100%;
-    display: flex;
-    justify-content: right;
-    margin-right: 20px;
-}
+
+
 
 .ic_nv{
     color:transparent;
@@ -88,59 +137,42 @@
     background-position: 55%;
 }
 
-.line{
-    width: 1200px;
-    margin: 10px 20px 30px 20px;
-    border: 0.5px solid rgba(160, 160, 160, 0.144);
-}
-
-.footer_dropdown{
-    margin: 20px 0px 20px 20px;
-    color:#c5c5c5;
-}
-
-.footer_dropdown_box{
-    width:1200px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-}
-
-.footer_division{
-    display:flex;
-    margin-left: 10px;;
-}
-
-.footer_detail{
-    display:flex;
-    justify-self: left;
-    font-size: 12px;
-    color:rgba(219, 219, 219, 0.486);
-    font-weight:400;
-}
-
-.footer_copyright{
-    width: 1200px;
-    font-size: 12px;
-    color:rgba(219, 219, 219, 0.486);
-    font-weight:300;
-    display:flex;
-    justify-content: flex-end;
-    padding-top:20px;
-    margin-bottom: 100px;
-}
-
 
 @media screen and (max-width:1024px) {
-    .footer_menu_box{
-        width:20%;
-        height:200px;
-        display: flex;
+    .footer_header{
+        width:auto;
+        display:flex;
+        height:100px;
+        justify-content:space-evenly;
         flex-direction: column;
-        text-align: left;
+        align-items: flex-start;
+    }
+    .footer_header_text{
+        width:50%;
+    }
+    .footer_header_icon{
+        width:30%;
+    }
+    .footer_service_box{
+        width:35%;
+        flex-wrap:wrap;
+    }
+    .footer_service_box > a{
+        margin-right:15px;
     }
 }
 
-@media screen and (max-width:767px) {
-
-} */
+@media screen and (max-width:857px) {
+    .footer_detail_box{
+        display:none;
+    }
+    .footer_header_text{
+        width:70%;
+    }
+    .footer_header_icon{
+        width:50%;
+    }
+    .footer_service_box{
+        width:60%;
+    }
+} 
