@@ -64,13 +64,23 @@ https://www.jsdelivr.com/projects/jquery.slick
 <br>
 <br>
 
-# <center>❌ 못한 것들</center>
+## · 클릭시 링크에 따른 Youtube Vedio Modal Popup 구현
 
+<br>
+<img src="/gif/6.gif" width="1000" height="1000" />
 
-## ~~Bilding Popup(modal) for video play~~
+<br>
+<br>
+  
+## · window 사이즈에 맞게끔 layout 수정 (Media Query) 
 
+<br>
+<img src="/gif/5.gif" width="1000" height="1000" />
 
-## ~~Sign in and up~~
+<br>
+<br>
+  
+  
 
 
 
