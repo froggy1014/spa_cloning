@@ -1,3 +1,7 @@
+.modal{
+  border:none;
+}
+
 .modal::backdrop {
   background: rgb(0 0 0 / 0.4);
 }
@@ -8,8 +12,16 @@
   padding: 0;
   margin: 0;
   overflow:hidden;
-  position:fixed;
-  top:17%;
-  left:25%;
+  position: fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%); 
 }
 
+
+@media screen and (max-width:959px) {
+
+  .modal_container{
+    width:100%;
+  }
+}
