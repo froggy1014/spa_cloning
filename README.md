@@ -17,8 +17,7 @@ HTML,CSS는 마침표를 찍고싶었고 그래서 내가 수강하고있는 스
 
 ###  [& 스파르타코딩클럽](https://spartacodingclub.kr/)
 
-### [& 내가 클론한 페이지](#none)
-(아직 부족하여 완성하고 도메인넣겠습니다.)
+### [& 내가 클론한 페이지](http://minclone.dothome.co.kr/)
 
 <br>
 <br>
